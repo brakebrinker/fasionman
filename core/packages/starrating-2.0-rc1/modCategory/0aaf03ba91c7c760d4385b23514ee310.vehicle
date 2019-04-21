@@ -1,0 +1,74 @@
+<?php return array (
+  'unique_key' => 'category',
+  'preserve_keys' => false,
+  'update_object' => true,
+  'related_objects' => 
+  array (
+    'Chunks' => 
+    array (
+      '499629fa13f9007262edf14c8a6d1fa5' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+        'class' => 'modChunk',
+        'object' => '{"id":null,"name":"starTpl","description":"Star Rating Default Template","editor_type":0,"category":0,"cache_type":0,"snippet":"[[+rating]]<span class=\\"totalvotes\\">Votes: [[+vote_count]]<\\/span>","locked":0,"properties":null}',
+        'guid' => '16321d90e58910aab7eb03bb29a0a83e',
+        'native_key' => NULL,
+        'signature' => 'd21f3d3bbe63b42f73224f3ce590c8dc',
+      ),
+    ),
+    'Snippets' => 
+    array (
+      '4b5b52f561ad1d86861fefac36d70702' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+        'class' => 'modSnippet',
+        'object' => '{"id":null,"name":"starRating","description":"Star Rating for MODx Revolution 2.0.0","editor_type":0,"category":0,"cache_type":0,"snippet":"\\/**\\n * Star Rating snippet\\n *\\n * @package star_rating\\n *\\/\\n$snippetPath = $modx->getOption(\'core_path\').\'components\\/star_rating\\/\';\\n$modx->addPackage(\'star_rating\',$snippetPath.\'model\\/\');\\n\\n$manager = $modx->getManager();\\n$manager->createObjectContainer(\'starRating\');\\n\\n$starId = isset($starId) ? $starId : null;\\n$groupId = isset($groupId) ? $groupId : \'\';\\n\\n$c = $modx->newQuery(\'starRating\');\\n$c->where(array(\'star_id\' => $starId));\\nif ($groupId != \'\') $c->where(array(\'group_id\' => $groupId));\\n\\n$starRating = $modx->getObject(\'starRating\', $c);\\nif ($starRating == null) {\\n    $starRating = $modx->newObject(\'starRating\');\\n    $starRating->set(\'star_id\',$starId);\\n    $starRating->set(\'group_id\',$groupId);\\n}\\n$starRating->initialize();\\n\\n\\/* parameters *\\/\\n$starRating->setConfig($scriptProperties);\\n\\n\\/* process star rating *\\/\\n$starRating->loadTheme();\\n\\n$groupIdCheck = isset($_GET[\'group_id\']) && $starRating->get(\'group_id\') !== $_GET[\'group_id\'] ? false : true;\\n\\nif (isset($_GET[\'vote\']) && isset($_GET[\'star_id\']) && $starRating->get(\'star_id\') == $_GET[\'star_id\'] && $groupIdCheck) {\\n    $starRating->setVote($_GET[\'vote\']);\\n    $starRating->addVote();\\n    $modx->sendRedirect($starRating->getRedirectUrl());\\n}\\n\\nreturn $starRating->renderVote();","locked":0,"properties":"a:13:{s:6:\\"starId\\";a:5:{s:4:\\"name\\";s:6:\\"starId\\";s:4:\\"desc\\";s:44:\\"The unique ID for this specific star rating.\\";s:4:\\"type\\";s:9:\\"textfield\\";s:7:\\"options\\";s:0:\\"\\";s:5:\\"value\\";s:1:\\"1\\";}s:7:\\"groupId\\";a:5:{s:4:\\"name\\";s:7:\\"groupId\\";s:4:\\"desc\\";s:46:\\"An optional ID to group star ratings together.\\";s:4:\\"type\\";s:9:\\"textfield\\";s:7:\\"options\\";s:0:\\"\\";s:5:\\"value\\";s:1:\\"1\\";}s:8:\\"maxStars\\";a:5:{s:4:\\"name\\";s:8:\\"maxStars\\";s:4:\\"desc\\";s:36:\\"The number of stars used in ranking.\\";s:4:\\"type\\";s:9:\\"textfield\\";s:7:\\"options\\";s:0:\\"\\";s:5:\\"value\\";s:1:\\"5\\";}s:7:\\"starTpl\\";a:5:{s:4:\\"name\\";s:7:\\"starTpl\\";s:4:\\"desc\\";s:53:\\"The name of the Chunk to use for rendering the stars.\\";s:4:\\"type\\";s:9:\\"textfield\\";s:7:\\"options\\";s:0:\\"\\";s:5:\\"value\\";s:7:\\"starTpl\\";}s:5:\\"theme\\";a:5:{s:4:\\"name\\";s:5:\\"theme\\";s:4:\\"desc\\";s:17:\\"The theme to use.\\";s:4:\\"type\\";s:9:\\"textfield\\";s:7:\\"options\\";s:0:\\"\\";s:5:\\"value\\";s:7:\\"default\\";}s:8:\\"imgWidth\\";a:5:{s:4:\\"name\\";s:8:\\"imgWidth\\";s:4:\\"desc\\";s:29:\\"The width of the star images.\\";s:4:\\"type\\";s:9:\\"textfield\\";s:7:\\"options\\";s:0:\\"\\";s:5:\\"value\\";s:2:\\"25\\";}s:7:\\"cssFile\\";a:5:{s:4:\\"name\\";s:7:\\"cssFile\\";s:4:\\"desc\\";s:32:\\"The name of the css file to use.\\";s:4:\\"type\\";s:9:\\"textfield\\";s:7:\\"options\\";s:0:\\"\\";s:5:\\"value\\";s:4:\\"star\\";}s:9:\\"urlPrefix\\";a:5:{s:4:\\"name\\";s:9:\\"urlPrefix\\";s:4:\\"desc\\";s:52:\\"This will prefix this value to any Star Rating URLs.\\";s:4:\\"type\\";s:9:\\"textfield\\";s:7:\\"options\\";s:0:\\"\\";s:5:\\"value\\";s:0:\\"\\";}s:10:\\"useSession\\";a:5:{s:4:\\"name\\";s:10:\\"useSession\\";s:4:\\"desc\\";s:52:\\"If true, will use session to prevent multiple votes.\\";s:4:\\"type\\";s:13:\\"combo-boolean\\";s:7:\\"options\\";s:0:\\"\\";s:5:\\"value\\";s:1:\\"1\\";}s:11:\\"sessionName\\";a:5:{s:4:\\"name\\";s:11:\\"sessionName\\";s:4:\\"desc\\";s:67:\\"If useSession is true, this will be the name of the session to use.\\";s:4:\\"type\\";s:9:\\"textfield\\";s:7:\\"options\\";s:0:\\"\\";s:5:\\"value\\";s:10:\\"starrating\\";}s:9:\\"useCookie\\";a:5:{s:4:\\"name\\";s:9:\\"useCookie\\";s:4:\\"desc\\";s:51:\\"If true, will use cookie to prevent multiple votes.\\";s:4:\\"type\\";s:13:\\"combo-boolean\\";s:7:\\"options\\";s:0:\\"\\";s:5:\\"value\\";s:1:\\"0\\";}s:10:\\"cookieName\\";a:5:{s:4:\\"name\\";s:10:\\"cookieName\\";s:4:\\"desc\\";s:51:\\"If useCookie is true, this will be the cookie name.\\";s:4:\\"type\\";s:9:\\"textfield\\";s:7:\\"options\\";s:0:\\"\\";s:5:\\"value\\";s:11:\\"starrrating\\";}s:12:\\"cookieExpiry\\";a:5:{s:4:\\"name\\";s:12:\\"cookieExpiry\\";s:4:\\"desc\\";s:45:\\"The expiration time in seconds of the cookie.\\";s:4:\\"type\\";s:9:\\"textfield\\";s:7:\\"options\\";s:0:\\"\\";s:5:\\"value\\";s:6:\\"608400\\";}}","moduleguid":""}',
+        'guid' => '912fa3f7ab4df498b320adcb971747aa',
+        'native_key' => NULL,
+        'signature' => 'e215fcd38a4e686c42effdad89a56455',
+      ),
+    ),
+  ),
+  'related_object_attributes' => 
+  array (
+    'Snippets' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'name',
+    ),
+    'Chunks' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'name',
+    ),
+  ),
+  'namespace' => 'starrating',
+  'resolve' => 
+  array (
+    0 => 
+    array (
+      'type' => 'file',
+      'body' => '{"source":"starrating-2.0-rc1\\/modCategory\\/0aaf03ba91c7c760d4385b23514ee310\\/0\\/","target":"return MODX_CORE_PATH . \'components\\/\';","name":"star_rating"}',
+    ),
+    1 => 
+    array (
+      'type' => 'file',
+      'body' => '{"source":"starrating-2.0-rc1\\/modCategory\\/0aaf03ba91c7c760d4385b23514ee310\\/1\\/","target":"return MODX_ASSETS_PATH . \'components\\/\';","name":"star_rating"}',
+    ),
+  ),
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '74eedeef39216c2b53cb50d949bf4f58',
+  'package' => 'modx',
+  'class' => 'modCategory',
+  'signature' => '0aaf03ba91c7c760d4385b23514ee310',
+  'native_key' => 1,
+  'object' => '{"id":1,"parent":0,"category":"StarRating"}',
+);

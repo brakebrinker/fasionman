@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => 'BUILD_SETTING_UPDATE',
+  'namespace' => 'msimportexport',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '8daacb387ea573e13bead7c1959d6393',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => '52cc9c0d416bcd0d26886f98ced9bba5',
+  'native_key' => 'msimportexport.import.cron_log',
+  'object' => '{"key":"msimportexport.import.cron_log","value":"0","xtype":"combo-boolean","namespace":"msimportexport","area":"import","editedon":"2016-01-21 21:58:54"}',
+);

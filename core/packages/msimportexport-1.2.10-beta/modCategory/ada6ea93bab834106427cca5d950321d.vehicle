@@ -1,0 +1,91 @@
+<?php return array (
+  'unique_key' => 'category',
+  'preserve_keys' => false,
+  'update_object' => true,
+  'related_objects' => 
+  array (
+    'Plugins' => 
+    array (
+      '6f3d9d49cb5873193f895af84afeeb8c' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+        'class' => 'modPlugin',
+        'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"msimportexport","description":"","editor_type":0,"category":0,"cache_type":0,"plugincode":"\\/** @var modX $modx *\\/\\nswitch ($modx->event->name) {\\n    case \'msieOnBeforeImportProduct\':\\n       \\/\\/ $modx->event->params[\'destData\'][\'price\'] = 10;\\n        $modx->event->returnedValues[\'destData\'] = $modx->event->params[\'destData\'];\\n        \\/\\/$modx->log(modX::LOG_LEVEL_ERROR, print_r($modx->event->params, 1));\\n        \\/\\/$modx->event->output(\'Error\');\\n        break;\\n    case \'msieOnAfterImportProduct\':\\n        \\/\\/$modx->log(modX::LOG_LEVEL_ERROR, print_r($modx->event->params, 1));\\n        break;\\n}","locked":0,"properties":null,"disabled":0,"moduleguid":"","static":0,"static_file":"","content":"\\/** @var modX $modx *\\/\\nswitch ($modx->event->name) {\\n    case \'msieOnBeforeImportProduct\':\\n       \\/\\/ $modx->event->params[\'destData\'][\'price\'] = 10;\\n        $modx->event->returnedValues[\'destData\'] = $modx->event->params[\'destData\'];\\n        \\/\\/$modx->log(modX::LOG_LEVEL_ERROR, print_r($modx->event->params, 1));\\n        \\/\\/$modx->event->output(\'Error\');\\n        break;\\n    case \'msieOnAfterImportProduct\':\\n        \\/\\/$modx->log(modX::LOG_LEVEL_ERROR, print_r($modx->event->params, 1));\\n        break;\\n}"}',
+        'guid' => '9bd70d941bce1d1787552cde59a268e7',
+        'native_key' => NULL,
+        'signature' => '60502d0a851abe82be858ba3227f5d5d',
+      ),
+    ),
+  ),
+  'related_object_attributes' => 
+  array (
+    'Snippets' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'name',
+    ),
+    'Chunks' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'name',
+    ),
+    'Plugins' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'name',
+    ),
+    'PluginEvents' => 
+    array (
+      'preserve_keys' => true,
+      'update_object' => false,
+      'unique_key' => 
+      array (
+        0 => 'pluginid',
+        1 => 'event',
+      ),
+    ),
+  ),
+  'namespace' => 'msimportexport',
+  'resolve' => 
+  array (
+    0 => 
+    array (
+      'type' => 'file',
+      'body' => '{"source":"msimportexport-1.2.10-beta\\/modCategory\\/ada6ea93bab834106427cca5d950321d\\/0\\/","target":"return MODX_CORE_PATH . \'components\\/\';","name":"msimportexport"}',
+    ),
+    1 => 
+    array (
+      'type' => 'file',
+      'body' => '{"source":"msimportexport-1.2.10-beta\\/modCategory\\/ada6ea93bab834106427cca5d950321d\\/1\\/","target":"return MODX_ASSETS_PATH . \'components\\/\';","name":"msimportexport"}',
+    ),
+    2 => 
+    array (
+      'type' => 'php',
+      'body' => '{"source":"msimportexport-1.2.10-beta\\/modCategory\\/ada6ea93bab834106427cca5d950321d.resolve.tables.resolver","type":"php","name":"resolve.tables"}',
+    ),
+    3 => 
+    array (
+      'type' => 'php',
+      'body' => '{"source":"msimportexport-1.2.10-beta\\/modCategory\\/ada6ea93bab834106427cca5d950321d.resolve.settings.resolver","type":"php","name":"resolve.settings"}',
+    ),
+    4 => 
+    array (
+      'type' => 'php',
+      'body' => '{"source":"msimportexport-1.2.10-beta\\/modCategory\\/ada6ea93bab834106427cca5d950321d.package.resolver.resolver","type":"php","name":"package.resolver"}',
+    ),
+  ),
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '18d618ef3884965027ce2e2d3690ecc0',
+  'package' => 'modx',
+  'class' => 'modCategory',
+  'signature' => 'ada6ea93bab834106427cca5d950321d',
+  'native_key' => 1,
+  'object' => '{"id":1,"parent":0,"category":"msImportExport","rank":0}',
+);

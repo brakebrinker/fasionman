@@ -1,0 +1,15 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => 'BUILD_EVENT_UPDATE',
+  'namespace' => 'msimportexport',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'b361d8c571ef0a6e5ec01ce1ee060ef4',
+  'package' => 'modx',
+  'class' => 'modEvent',
+  'signature' => '1f8e8ffff5d2d52c1fd04b4ac5e37c8c',
+  'native_key' => 'msieOnCompleteExport',
+  'object' => '{"name":"msieOnCompleteExport","service":6,"groupname":"msImportExport"}',
+);

@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => 'BUILD_SETTING_UPDATE',
+  'namespace' => 'msimportexport',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '0c5e5b06dbd0e033c1869d9e9e551a2e',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => '4cb1d07f029464379cc41620f94bf14e',
+  'native_key' => 'msimportexport.export.ym.phone',
+  'object' => '{"key":"msimportexport.export.ym.phone","value":"","xtype":"textfield","namespace":"msimportexport","area":"export \\u042f\\u043d\\u0434\\u0435\\u043a\\u0441.\\u041c\\u0430\\u0440\\u043a\\u0435\\u0442\\u0435","editedon":"0000-00-00 00:00:00"}',
+);

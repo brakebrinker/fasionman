@@ -1,0 +1,50 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => false,
+  'unique_key' => 'text',
+  'related_objects' => 
+  array (
+    'Action' => 
+    array (
+      '3cd6495984e57ed9e144d2eba1eedb95' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => false,
+        'unique_key' => 
+        array (
+          0 => 'namespace',
+          1 => 'controller',
+        ),
+        'class' => 'modAction',
+        'object' => '{"id":0,"namespace":"sendex","controller":"index","haslayout":1,"lang_topics":"sendex:default","assets":"","help_url":"","parent":0}',
+        'guid' => 'eeb5ea20dd12eab7292582f77347d0d5',
+        'native_key' => 0,
+        'signature' => '01e3138eec6a7cd0e33f14b7000b8263',
+      ),
+    ),
+  ),
+  'related_object_attributes' => 
+  array (
+    'Action' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => false,
+      'unique_key' => 
+      array (
+        0 => 'namespace',
+        1 => 'controller',
+      ),
+    ),
+  ),
+  'namespace' => 'sendex',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'fb2b0912b78a51260e998124cd5c9f0b',
+  'package' => 'modx',
+  'class' => 'modMenu',
+  'signature' => '04bc36d24e54cfe476d230c6d73e0705',
+  'native_key' => 'sendex',
+  'object' => '{"text":"sendex","parent":"components","action":0,"description":"sendex_menu_desc","icon":"images\\/icons\\/plugin.gif","menuindex":0,"params":"","handler":"","permissions":"","namespace":"core"}',
+);

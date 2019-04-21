@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model package="msimportexport" baseClass="xPDOObject" platform="mysql" defaultEngine="MyISAM" version="1.1">
+	<object class="MsieCron" table="msie_cron" extends="xPDOSimpleObject">
+		<field key="pid" dbtype="int" precision="11" phptype="integer" null="false" default="0" />
+		<field key="pid_key" dbtype="varchar" precision="32" phptype="string" null="false" />
+		<field key="type" dbtype="tinyint" precision="1" phptype="integer" null="false" default="1" index="index" />
+		<field key="name" dbtype="varchar" precision="255" phptype="string" null="false" />
+		<field key="seek" dbtype="int" precision="11" phptype="integer" null="false" />
+		<field key="iteration" dbtype="int" precision="11" phptype="integer" null="false" />
+		<field key="params" dbtype="text" phptype="array" null="false" />
+		<field key="schedule" dbtype="text" phptype="array" null="false" />
+		<field key="status" dbtype="tinyint" precision="3" phptype="integer" null="false" default="1" index="index" />
+		<field key="date_start" dbtype="int" precision="11" phptype="integer" null="true" />
+		<field key="date_last_ran" dbtype="int" precision="11" phptype="timestamp" null="true" />
+		<field key="active" dbtype="tinyint" precision="1" phptype="boolean" null="false" default="0" index="index" />
+
+		<index alias="active" name="active" primary="false" unique="false" type="BTREE" >
+			<column key="active" length="" collation="A" null="false" />
+		</index>
+		<index alias="status" name="status" primary="false" unique="false" type="BTREE" >
+			<column key="status" length="" collation="A" null="false" />
+		</index>
+		<index alias="type" name="type" primary="false" unique="false" type="BTREE" >
+			<column key="type" length="" collation="A" null="false" />
+		</index>
+	</object>
+	<object class="MsieHeadAlias" table="msie_head_alias" extends="xPDOSimpleObject">
+		<field key="key" dbtype="varchar" precision="255" phptype="string" null="false" />
+		<field key="value" dbtype="varchar" precision="255" phptype="string" null="false" />
+	</object>
+	<object class="MsiePresetsFields" table="msie_presets_fields" extends="xPDOSimpleObject">
+		<field key="name" dbtype="varchar" precision="200" phptype="string" null="false" />
+		<field key="type" dbtype="varchar" precision="100" phptype="string" null="false" />
+		<field key="act" dbtype="tinyint" precision="4" phptype="integer" null="false" default="1" />
+		<field key="fields" dbtype="text" phptype="json" null="false" />
+	</object>
+</model>

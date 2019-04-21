@@ -1,0 +1,1 @@
+[[+rating]]<span class="totalvotes">Votes: [[+vote_count]]</span>

@@ -1,0 +1,30 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => 'BUILD_MENU_UPDATE',
+  'unique_key' => 'text',
+  'related_objects' => true,
+  'related_object_attributes' => 
+  array (
+    'Action' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => 'BUILD_ACTION_UPDATE',
+      'unique_key' => 
+      array (
+        0 => 'namespace',
+        1 => 'controller',
+      ),
+    ),
+  ),
+  'namespace' => 'msimportexport',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '7db14e2a4ed13c89abd55a7d254b371b',
+  'package' => 'modx',
+  'class' => 'modMenu',
+  'signature' => '2e48ef199912944a1c7f46621b7e50a4',
+  'native_key' => 'msimportexport.cmenu.importexport',
+  'object' => '{"text":"msimportexport.cmenu.importexport","parent":"components","action":"","description":"msimportexport.cmenu.importexport_desc","icon":"","menuindex":4,"params":"","handler":"","permissions":"","namespace":"msimportexport"}',
+);

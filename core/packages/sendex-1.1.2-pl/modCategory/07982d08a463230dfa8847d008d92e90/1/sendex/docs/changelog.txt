@@ -1,0 +1,41 @@
+Changelog for Sendex.
+
+1.1.2-pl
+==============
+- [#23] Added button for removing all letters from queue
+
+1.1.1-pl
+==============
+- Fixed modUserProfile getting on creating subscriber
+
+1.1.0-pl
+==============
+- Improved installation script for MODX 2.4.
+
+1.1.0-rc
+==============
+- UI improvements.
+- Ability to add all users of the group to the newsletter.
+- Added multiselect in all grids.
+- Added subscribers count in newsletters grid.
+- Added buttons to grids for touch devices.
+- Added Font Awesome icons for MODX < 2.3.
+- [#21] Compatibility with MODX 2.3.
+- [#20] Added "send all" button to queues grid.
+
+1.0.0-pl
+==============
+- Added multiremoving and multisending
+- [#11]Added $_GET's subscribed, unsubscribed, confirmed
+- [#1] Fixed urls of images
+
+1.0.0-rc2
+==============
+- Various small fixes.
+
+==============
+- Fixed caching of template.
+
+1.0.0-beta
+==============
+- Initial release.

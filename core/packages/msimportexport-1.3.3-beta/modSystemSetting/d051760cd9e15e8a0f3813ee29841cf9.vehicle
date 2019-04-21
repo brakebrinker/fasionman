@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => 'BUILD_SETTING_UPDATE',
+  'namespace' => 'msimportexport',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'aeaf9e7f0c6ce0e1116de6770007081d',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => 'd051760cd9e15e8a0f3813ee29841cf9',
+  'native_key' => 'msimportexport.export.excel_height_img',
+  'object' => '{"key":"msimportexport.export.excel_height_img","value":"50","xtype":"textfield","namespace":"msimportexport","area":"export Excel","editedon":"2016-01-02 01:35:45"}',
+);

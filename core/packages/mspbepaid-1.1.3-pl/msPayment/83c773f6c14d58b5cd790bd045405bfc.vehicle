@@ -1,0 +1,69 @@
+<?php return array (
+  'unique_key' => 'name',
+  'preserve_keys' => false,
+  'update_object' => false,
+  'package' => 'minishop2',
+  'resolve' => 
+  array (
+    0 => 
+    array (
+      'type' => 'file',
+      'body' => '{"source":"mspbepaid-1.1.3-pl\\/msPayment\\/83c773f6c14d58b5cd790bd045405bfc\\/0\\/","target":"return MODX_ASSETS_PATH . \'components\\/\';","name":"mspbepaid"}',
+    ),
+    1 => 
+    array (
+      'type' => 'file',
+      'body' => '{"source":"mspbepaid-1.1.3-pl\\/msPayment\\/83c773f6c14d58b5cd790bd045405bfc\\/1\\/","target":"return MODX_ASSETS_PATH . \'components\\/minishop2\\/payment\\/\';","name":"bepaid.php"}',
+    ),
+    2 => 
+    array (
+      'type' => 'file',
+      'body' => '{"source":"mspbepaid-1.1.3-pl\\/msPayment\\/83c773f6c14d58b5cd790bd045405bfc\\/2\\/","target":"return MODX_CORE_PATH . \'components\\/\';","name":"mspbepaid"}',
+    ),
+    3 => 
+    array (
+      'type' => 'file',
+      'body' => '{"source":"mspbepaid-1.1.3-pl\\/msPayment\\/83c773f6c14d58b5cd790bd045405bfc\\/3\\/","target":"return MODX_CORE_PATH . \'components\\/minishop2\\/custom\\/payment\\/\';","name":"bepaid.class.php"}',
+    ),
+    4 => 
+    array (
+      'type' => 'file',
+      'body' => '{"source":"mspbepaid-1.1.3-pl\\/msPayment\\/83c773f6c14d58b5cd790bd045405bfc\\/4\\/","target":"return MODX_CORE_PATH . \'components\\/minishop2\\/lexicon\\/en\\/\';","name":"msp.bepaid.inc.php"}',
+    ),
+    5 => 
+    array (
+      'type' => 'file',
+      'body' => '{"source":"mspbepaid-1.1.3-pl\\/msPayment\\/83c773f6c14d58b5cd790bd045405bfc\\/5\\/","target":"return MODX_CORE_PATH . \'components\\/minishop2\\/lexicon\\/ru\\/\';","name":"msp.bepaid.inc.php"}',
+    ),
+    6 => 
+    array (
+      'type' => 'file',
+      'body' => '{"source":"mspbepaid-1.1.3-pl\\/msPayment\\/83c773f6c14d58b5cd790bd045405bfc\\/6\\/","target":"return MODX_CORE_PATH . \'components\\/minishop2\\/lexicon\\/be\\/\';","name":"msp.bepaid.inc.php"}',
+    ),
+    7 => 
+    array (
+      'type' => 'php',
+      'body' => '{"type":"php","source":"mspbepaid-1.1.3-pl\\/msPayment\\/83c773f6c14d58b5cd790bd045405bfc.resolve.settings.resolver","name":"resolve.settings"}',
+    ),
+  ),
+  'validate' => 
+  array (
+    0 => 
+    array (
+      'type' => 'php',
+      'body' => '{"type":"php","source":"mspbepaid-1.1.3-pl\\/msPayment\\/83c773f6c14d58b5cd790bd045405bfc.validate.phpversion.validator","name":"validate.phpversion"}',
+    ),
+    1 => 
+    array (
+      'type' => 'php',
+      'body' => '{"type":"php","source":"mspbepaid-1.1.3-pl\\/msPayment\\/83c773f6c14d58b5cd790bd045405bfc.validate.modxversion.validator","name":"validate.modxversion"}',
+    ),
+  ),
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '167b9b737602aa178eb8380b77817c2d',
+  'class' => 'msPayment',
+  'signature' => '83c773f6c14d58b5cd790bd045405bfc',
+  'native_key' => NULL,
+  'object' => '{"id":null,"name":"BePaid","description":null,"price":0,"logo":null,"rank":0,"active":0,"class":"BePaid","properties":null}',
+);

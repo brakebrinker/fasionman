@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => 'BUILD_SETTING_UPDATE',
+  'namespace' => 'msimportexport',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '5d505aa352c69020910c4153b0b4f0b7',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => '3bd375535d0b690f064b9b9b25e394a8',
+  'native_key' => 'msimportexport.export.excel_insert_img',
+  'object' => '{"key":"msimportexport.export.excel_insert_img","value":"0","xtype":"combo-boolean","namespace":"msimportexport","area":"export Excel","editedon":"2016-02-10 09:08:49"}',
+);

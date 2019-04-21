@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => 'BUILD_SETTING_UPDATE',
+  'namespace' => 'msimportexport',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '4a0f1de7babc2e03640293e273bef443',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => '296880fd58b5a1c6c5ef4c4e42ab588a',
+  'native_key' => 'msimportexport.export.where',
+  'object' => '{"key":"msimportexport.export.where","value":"","xtype":"textarea","namespace":"msimportexport","area":"export","editedon":"2016-09-06 15:55:35"}',
+);

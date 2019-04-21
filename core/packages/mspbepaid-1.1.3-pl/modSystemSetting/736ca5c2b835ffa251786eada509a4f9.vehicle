@@ -1,0 +1,15 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => true,
+  'class' => 'modSystemSetting',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'package' => 'modx',
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '48c1f755224e79ebf75dd91f730f4425',
+  'signature' => '736ca5c2b835ffa251786eada509a4f9',
+  'native_key' => NULL,
+  'object' => '{"key":"ms2_payment_bepaid_test_url","namespace":"minishop2","area":"ms2_payment_bepaid","editedon":null,"xtype":"textfield","value":"https:\\/\\/checkout.begateway.com\\/ctp\\/api\\/checkouts"}',
+);

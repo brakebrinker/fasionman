@@ -1,0 +1,74 @@
+<?php return array (
+  'unique_key' => 'category',
+  'preserve_keys' => false,
+  'update_object' => true,
+  'abort_install_on_vehicle_fail' => true,
+  'related_objects' => 
+  array (
+    'Plugins' => 
+    array (
+      '88a869c93a50b1a45cda315a8546fabc' => 
+      array (
+        'unique_key' => 'name',
+        'preserve_keys' => false,
+        'update_object' => false,
+        'related_objects' => 
+        array (
+          'PluginEvents' => 
+          array (
+            'bd4514ce78f53c420a90153d03eeb6ed' => 
+            array (
+              'unique_key' => 
+              array (
+                0 => 'pluginid',
+                1 => 'event',
+              ),
+              'preserve_keys' => true,
+              'update_object' => false,
+              'related_objects' => true,
+              'class' => 'modPluginEvent',
+              'object' => '{"pluginid":0,"event":"OnManagerPageBeforeRender","priority":0,"propertyset":0}',
+              'guid' => '4aeab26c38005c4e072a55cdf5af4b2c',
+              'native_key' => NULL,
+              'signature' => '6bb4d415d381e163bbe382651cb6033c',
+            ),
+          ),
+        ),
+        'class' => 'modPlugin',
+        'object' => '{"id":0,"name":"mspBePaid","category":0,"description":"mspBePaid","plugincode":"\\/*\\n * The MIT License (MIT)\\n *\\n * Copyright (c) 2015 Ivan Klimchuk <ivan@klimchuk.com>\\n *\\n * Permission is hereby granted, free of charge, to any person obtaining a copy\\n * of this software and associated documentation files (the \\"Software\\"), to deal\\n * in the Software without restriction, including without limitation the rights\\n * to use, copy, modify, merge, publish, distribute, sublicense, and\\/or sell\\n * copies of the Software, and to permit persons to whom the Software is\\n * furnished to do so, subject to the following conditions:\\n *\\n * The above copyright notice and this permission notice shall be included in\\n * all copies or substantial portions of the Software.\\n *\\n * THE SOFTWARE IS PROVIDED \\"AS IS\\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\\n * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\\n * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\\n * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\\n * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\\n * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\\n * THE SOFTWARE.\\n *\\/\\n\\nswitch ($modx->event->name) {\\n    case \'OnManagerPageBeforeRender\':\\n\\n        if ($_GET[\'a\'] != \'system\\/settings\') {\\n            return;\\n        }\\n\\n        $ms2connector = $modx->getOption(\'minishop2.assets_url\', null, $modx->getOption(\'assets_url\') . \'components\\/minishop2\\/\') . \'connector.php\';\\n\\n        $modx->controller->addLexiconTopic(\'minishop2:default\');\\n        $modx->controller->addJavascript(MODX_ASSETS_URL . \'components\\/mspbepaid\\/js\\/mgr\\/bepaid.js\');\\n        $modx->controller->addHtml(\'<script>BePaidPayment.ms2connector = \\"\' . $ms2connector . \'\\";<\\/script>\');\\n\\n        $files = [\\n            \'language.combo.js\',\\n            \'country.combo.js\',\\n            \'status.combo.js\',\\n            \'resource.combo.js\',\\n            \\/\\/ for now I have troubles with integrate superboxselect type into system settings grid\\n            \\/\\/ so special types not used\\n\\/\\/            \'readonly.combo.js\',\\n\\/\\/            \'hidden.combo.js\'\\n        ];\\n\\n        foreach ($files as $file) {\\n            $modx->controller->addJavascript(MODX_ASSETS_URL . \'components\\/mspbepaid\\/js\\/mgr\\/\' . $file);\\n        }\\n\\n        break;\\n}","static":true,"static_file":"core\\/components\\/mspbepaid\\/elements\\/plugins\\/mspBePaid.php","source":1,"property_preprocess":0,"editor_type":0,"cache_type":0}',
+        'guid' => '3e1aa041604f36ce91f3e59ada6c4e6c',
+        'native_key' => NULL,
+        'signature' => '4cca4128d1960da54d4d2e1934335e52',
+      ),
+    ),
+  ),
+  'related_object_attributes' => 
+  array (
+    'Plugins' => 
+    array (
+      'unique_key' => 'name',
+      'preserve_keys' => false,
+      'update_object' => false,
+      'related_objects' => true,
+    ),
+    'PluginEvents' => 
+    array (
+      'unique_key' => 
+      array (
+        0 => 'pluginid',
+        1 => 'event',
+      ),
+      'preserve_keys' => true,
+      'update_object' => false,
+      'related_objects' => true,
+    ),
+  ),
+  'native_key' => NULL,
+  'package' => 'modx',
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'd66b4365d081f376ed458982348c7f99',
+  'class' => 'modCategory',
+  'signature' => 'c33994d3b0b72aba4d6abd906314e267',
+  'object' => '{"id":1,"category":"mspBePaid","parent":0}',
+);

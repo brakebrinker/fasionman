@@ -1,0 +1,187 @@
+<?php return array (
+  'unique_key' => 'category',
+  'preserve_keys' => false,
+  'update_object' => true,
+  'related_objects' => 
+  array (
+    'Chunks' => 
+    array (
+      '0369d9fe5a990510b224e741e8c5fd27' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => false,
+        'unique_key' => 'name',
+        'class' => 'modChunk',
+        'object' => '{"id":0,"source":1,"property_preprocess":0,"name":"tpl.Sendex.subscribe.auth","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"<form action=\\"\\" method=\\"post\\">\\n\\t<p>\\n\\t\\t[[%sendex_subscribe_intro?name=`[[+name]]`]]\\n\\t\\t<small>[[+description]]<\\/small>\\n\\t<\\/p>\\n\\n\\t<input type=\\"hidden\\" name=\\"sx_action\\" value=\\"subscribe\\">\\n\\t<button type=\\"submit\\">[[%sendex_btn_subscribe]]<\\/button>\\n\\n\\t[[+message]]\\n<\\/form>","locked":0,"properties":null,"static":0,"static_file":"core\\/components\\/sendex\\/elements\\/chunks\\/chunk.subscribe.auth.tpl","content":"<form action=\\"\\" method=\\"post\\">\\n\\t<p>\\n\\t\\t[[%sendex_subscribe_intro?name=`[[+name]]`]]\\n\\t\\t<small>[[+description]]<\\/small>\\n\\t<\\/p>\\n\\n\\t<input type=\\"hidden\\" name=\\"sx_action\\" value=\\"subscribe\\">\\n\\t<button type=\\"submit\\">[[%sendex_btn_subscribe]]<\\/button>\\n\\n\\t[[+message]]\\n<\\/form>"}',
+        'guid' => '5181f1a0d7d8d993c4012db5900d53f6',
+        'native_key' => 0,
+        'signature' => 'badb9adbd26fa3b6a26f6bc4c4fa5b6e',
+      ),
+      '988ec13f4c4fce33a007a4e2e65aab5b' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => false,
+        'unique_key' => 'name',
+        'class' => 'modChunk',
+        'object' => '{"id":0,"source":1,"property_preprocess":0,"name":"tpl.Sendex.subscribe.guest","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"<form action=\\"\\" method=\\"post\\">\\n\\t<p>\\n\\t\\t[[%sendex_subscribe_intro?name=`[[+name]]`]]\\n\\t\\t<small>[[+description]]<\\/small>\\n\\t<\\/p>\\n\\t<input type=\\"textfield\\" name=\\"email\\" value=\\"\\" placeholder=\\"Email\\">\\n\\n\\t<input type=\\"hidden\\" name=\\"sx_action\\" value=\\"subscribe\\">\\n\\t<button type=\\"submit\\">[[%sendex_btn_subscribe]]<\\/button>\\n\\n\\t[[+message]]\\n<\\/form>","locked":0,"properties":null,"static":0,"static_file":"core\\/components\\/sendex\\/elements\\/chunks\\/chunk.subscribe.guest.tpl","content":"<form action=\\"\\" method=\\"post\\">\\n\\t<p>\\n\\t\\t[[%sendex_subscribe_intro?name=`[[+name]]`]]\\n\\t\\t<small>[[+description]]<\\/small>\\n\\t<\\/p>\\n\\t<input type=\\"textfield\\" name=\\"email\\" value=\\"\\" placeholder=\\"Email\\">\\n\\n\\t<input type=\\"hidden\\" name=\\"sx_action\\" value=\\"subscribe\\">\\n\\t<button type=\\"submit\\">[[%sendex_btn_subscribe]]<\\/button>\\n\\n\\t[[+message]]\\n<\\/form>"}',
+        'guid' => '442093932c3f6fa071ee94f471436eac',
+        'native_key' => 0,
+        'signature' => '4597dfdad6ee103eb6a2a01e71e1a61c',
+      ),
+      'a481c86db9f4cc6b60198e3afd22e090' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => false,
+        'unique_key' => 'name',
+        'class' => 'modChunk',
+        'object' => '{"id":0,"source":1,"property_preprocess":0,"name":"tpl.Sendex.unsubscribe","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"<form action=\\"\\" method=\\"post\\">\\n\\t<p>\\n\\t\\t[[%sendex_unsubscribe_intro?name=`[[+name]]`]]\\n\\t\\t<small>[[+description]]<\\/small>\\n\\t<\\/p>\\n\\t<input type=\\"hidden\\" name=\\"code\\" value=\\"[[+code]]\\">\\n\\n\\t<input type=\\"hidden\\" name=\\"sx_action\\" value=\\"unsubscribe\\">\\n\\t<button type=\\"submit\\">[[%sendex_btn_unsubscribe]]<\\/button>\\n\\n\\t[[+message]]\\n<\\/form>","locked":0,"properties":null,"static":0,"static_file":"core\\/components\\/sendex\\/elements\\/chunks\\/chunk.unsubscribe.tpl","content":"<form action=\\"\\" method=\\"post\\">\\n\\t<p>\\n\\t\\t[[%sendex_unsubscribe_intro?name=`[[+name]]`]]\\n\\t\\t<small>[[+description]]<\\/small>\\n\\t<\\/p>\\n\\t<input type=\\"hidden\\" name=\\"code\\" value=\\"[[+code]]\\">\\n\\n\\t<input type=\\"hidden\\" name=\\"sx_action\\" value=\\"unsubscribe\\">\\n\\t<button type=\\"submit\\">[[%sendex_btn_unsubscribe]]<\\/button>\\n\\n\\t[[+message]]\\n<\\/form>"}',
+        'guid' => '11eeddaeeed7a05d34b872264767ca41',
+        'native_key' => 0,
+        'signature' => 'd2dc3f1abe8db5e36045e0834769068f',
+      ),
+      'c9d1a08d531c88b39f461fff0cbdd8e5' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => false,
+        'unique_key' => 'name',
+        'class' => 'modChunk',
+        'object' => '{"id":0,"source":1,"property_preprocess":0,"name":"tpl.Sendex.activate","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"[[+link]]","locked":0,"properties":null,"static":0,"static_file":"core\\/components\\/sendex\\/elements\\/chunks\\/chunk.activate.tpl","content":"[[+link]]"}',
+        'guid' => 'cdfb476175217da3a7bab1a35939f3f2',
+        'native_key' => 0,
+        'signature' => 'e558dbb20d45d6dbe546b9e2e05da0bf',
+      ),
+    ),
+    'Snippets' => 
+    array (
+      '202ccca0484a68b3af0f036f5242ae4b' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+        'class' => 'modSnippet',
+        'object' => '{"id":0,"source":1,"property_preprocess":0,"name":"Sendex","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"\\/** @var array $scriptProperties *\\/\\n\\/** @var Sendex $Sendex *\\/\\n$Sendex = $modx->getService(\'sendex\',\'Sendex\',$modx->getOption(\'sendex_core_path\',null,$modx->getOption(\'core_path\').\'components\\/sendex\\/\').\'model\\/sendex\\/\',$scriptProperties);\\nif (!($Sendex instanceof Sendex)) return \'\';\\n\\nif (empty($tplSubscribeAuth)) {$tplSubscribeAuth = \'tpl.Sendex.subscribe.auth\';}\\nif (empty($tplSubscribeGuest)) {$tplSubscribeGuest = \'tpl.Sendex.subscribe.guest\';}\\nif (empty($tplUnsubscribe)) {$tplUnsubscribe = \'tpl.Sendex.unsubscribe\';}\\nif (empty($tplActivate)) {$tplActivate = \'tpl.Sendex.activate\';}\\nif (empty($linkTTL)) {$linkTTL = 1800;}\\n\\nif (empty($id) || !$newsletter = $modx->getObject(\'sxNewsletter\', $id)) {\\n\\treturn $modx->lexicon(\'sendex_newsletter_err_ns\');\\n}\\n\\n\\/** @var sxNewsletter $newsletter *\\/\\nif (!$newsletter->active && empty($showInactive)) {\\n\\treturn $modx->lexicon(\'sendex_newsletter_err_disabled\');\\n}\\n\\n$placeholders = $newsletter->toArray();\\n$placeholders[\'message\'] = \'\';\\n$placeholders[\'error\'] = 0;\\nif ($modx->user->isAuthenticated($modx->context->key)) {\\n\\t$placeholders = array_merge(\\n\\t\\t$modx->user->toArray(),\\n\\t\\t$modx->user->Profile->toArray(),\\n\\t\\t$placeholders\\n\\t);\\n}\\n\\n$isAuthenticated = $modx->user->isAuthenticated($modx->context->key);\\n\\nif (!empty($_REQUEST[\'sx_action\'])) {\\n\\t$isAjax = isset($_SERVER[\'HTTP_X_REQUESTED_WITH\']) && $_SERVER[\'HTTP_X_REQUESTED_WITH\'] == \'XMLHttpRequest\';\\n\\n\\t$params = $_GET;\\n\\tunset($params[$modx->getOption(\'request_param_alias\')]);\\n\\tunset($params[$modx->getOption(\'request_param_id\')]);\\n\\n\\tswitch ($_REQUEST[\'sx_action\']) {\\n\\t\\tcase \'subscribe\':\\n\\t\\t\\tif ($isAuthenticated && $modx->user->id) {\\n\\t\\t\\t\\tif (!$response = $newsletter->Subscribe($modx->user->id)) {\\n\\t\\t\\t\\t\\t$placeholders[\'message\'] = $modx->lexicon(\'sendex_subscribe_err_email_wrong\');\\n\\t\\t\\t\\t\\t$placeholders[\'error\'] = 1;\\n\\t\\t\\t\\t}\\n\\t\\t\\t}\\n\\t\\t\\telseif (!empty($_REQUEST[\'email\'])) {\\n\\t\\t\\t\\t$email = htmlentities(strip_tags(urldecode($_REQUEST[\'email\'])));\\n\\t\\t\\t\\t$response = $newsletter->checkEmail($email, $modx->user->id, $linkTTL);\\n\\t\\t\\t\\tif ($response === true) {\\n\\t\\t\\t\\t\\t$placeholders[\'message\'] = $modx->lexicon(\'sendex_subscribe_err_already\');\\n\\t\\t\\t\\t}\\n\\t\\t\\t\\telseif ($response === false) {\\n\\t\\t\\t\\t\\t$placeholders[\'message\'] = $modx->lexicon(\'sendex_subscribe_err_email_wrong\');\\n\\t\\t\\t\\t\\t$placeholders[\'error\'] = 1;\\n\\t\\t\\t\\t}\\n\\t\\t\\t\\telse {\\n\\t\\t\\t\\t\\t$params[\'hash\'] = $response;\\n\\t\\t\\t\\t\\t$params[\'sx_action\'] = \'confirm\';\\n\\t\\t\\t\\t\\t$placeholders[\'link\'] = $modx->makeUrl($modx->resource->id, $modx->context->key, $params, \'full\');\\n\\t\\t\\t\\t\\t$placeholders[\'email_body\'] = $modx->getChunk($tplActivate, $placeholders);\\n\\t\\t\\t\\t\\t$response = $Sendex->sendEmail($email, $placeholders);\\n\\t\\t\\t\\t\\tif ($response !== true) {\\n\\t\\t\\t\\t\\t\\t$placeholders[\'message\'] = $modx->lexicon(\'sendex_subscribe_err_email_send\');\\n\\t\\t\\t\\t\\t\\t$placeholders[\'error\'] = 1;\\n\\t\\t\\t\\t\\t} else {\\n\\t\\t\\t\\t\\t    $params[\'sx_subscribed\'] = 1;\\n\\t\\t\\t\\t\\t}\\n\\t\\t\\t\\t}\\n\\t\\t\\t}\\n\\t\\t\\telse {\\n\\t\\t\\t\\t$placeholders[\'message\'] = $modx->lexicon(\'sendex_subscribe_err_email_ns\');\\n\\t\\t\\t\\t$placeholders[\'error\'] = 1;\\n\\t\\t\\t}\\n\\t\\t\\tunset($params[\'email\'], $params[\'hash\']);\\n\\t\\t\\tbreak;\\n\\t\\tcase \'confirm\':\\n\\t\\t\\tif (!empty($_REQUEST[\'hash\'])) {\\n\\t\\t\\t\\t$response = $newsletter->confirmEmail($_REQUEST[\'hash\']);\\n\\t\\t\\t\\t$params[\'sx_confirmed\'] = 1;\\n\\t\\t\\t\\tunset($params[\'hash\']);\\n\\t\\t\\t}\\n\\t\\t\\tbreak;\\n\\t\\tcase \'unsubscribe\':\\n\\t\\t\\tif (!empty($_REQUEST[\'code\'])) {\\n\\t\\t\\t\\t$response = $newsletter->unSubscribe($_REQUEST[\'code\']);\\n\\t\\t\\t\\t$params[\'sx_unsubscribed\'] = 1;\\n\\t\\t\\t}\\n\\t\\t\\tunset($params[\'code\']);\\n\\t\\t\\tbreak;\\n\\t}\\n\\n\\tunset($params[\'sx_action\']);\\n\\tif (!$isAjax && empty($placeholders[\'message\'])) {\\n\\t\\t$modx->sendRedirect($modx->makeUrl($modx->resource->id, $modx->context->key, $params, \'full\'));\\n\\t}\\n}\\n\\nif ($isAuthenticated && $id = $newsletter->isSubscribed($modx->user->id)) {\\n\\tif ($subscriber = $modx->getObject(\'sxSubscriber\', $id)) {\\n\\t\\t$placeholders = array_merge($subscriber->toArray(), $placeholders);\\n\\t}\\n\\t$output = $modx->getChunk($tplUnsubscribe, $placeholders);\\n}\\nelse {\\n\\t$output = $isAuthenticated\\n\\t\\t? $modx->getChunk($tplSubscribeAuth, $placeholders)\\n\\t\\t: $modx->getChunk($tplSubscribeGuest, $placeholders);\\n}\\n\\nif (!empty($isAjax)) {\\n\\t@session_write_close();\\n\\texit($output);\\n}\\nelse {\\n\\treturn $output;\\n}","locked":0,"properties":"a:6:{s:2:\\"id\\";a:7:{s:4:\\"name\\";s:2:\\"id\\";s:4:\\"desc\\";s:14:\\"sendex_prop_id\\";s:4:\\"type\\";s:11:\\"numberfield\\";s:7:\\"options\\";a:0:{}s:5:\\"value\\";s:0:\\"\\";s:7:\\"lexicon\\";s:17:\\"sendex:properties\\";s:4:\\"area\\";s:0:\\"\\";}s:12:\\"showInactive\\";a:7:{s:4:\\"name\\";s:12:\\"showInactive\\";s:4:\\"desc\\";s:24:\\"sendex_prop_showInactive\\";s:4:\\"type\\";s:13:\\"combo-boolean\\";s:7:\\"options\\";a:0:{}s:5:\\"value\\";b:0;s:7:\\"lexicon\\";s:17:\\"sendex:properties\\";s:4:\\"area\\";s:0:\\"\\";}s:16:\\"tplSubscribeAuth\\";a:7:{s:4:\\"name\\";s:16:\\"tplSubscribeAuth\\";s:4:\\"desc\\";s:28:\\"sendex_prop_tplSubscribeAuth\\";s:4:\\"type\\";s:9:\\"textfield\\";s:7:\\"options\\";a:0:{}s:5:\\"value\\";s:25:\\"tpl.Sendex.subscribe.auth\\";s:7:\\"lexicon\\";s:17:\\"sendex:properties\\";s:4:\\"area\\";s:0:\\"\\";}s:17:\\"tplSubscribeGuest\\";a:7:{s:4:\\"name\\";s:17:\\"tplSubscribeGuest\\";s:4:\\"desc\\";s:29:\\"sendex_prop_tplSubscribeGuest\\";s:4:\\"type\\";s:9:\\"textfield\\";s:7:\\"options\\";a:0:{}s:5:\\"value\\";s:26:\\"tpl.Sendex.subscribe.guest\\";s:7:\\"lexicon\\";s:17:\\"sendex:properties\\";s:4:\\"area\\";s:0:\\"\\";}s:14:\\"tplUnsubscribe\\";a:7:{s:4:\\"name\\";s:14:\\"tplUnsubscribe\\";s:4:\\"desc\\";s:26:\\"sendex_prop_tplUnsubscribe\\";s:4:\\"type\\";s:9:\\"textfield\\";s:7:\\"options\\";a:0:{}s:5:\\"value\\";s:22:\\"tpl.Sendex.unsubscribe\\";s:7:\\"lexicon\\";s:17:\\"sendex:properties\\";s:4:\\"area\\";s:0:\\"\\";}s:11:\\"tplActivate\\";a:7:{s:4:\\"name\\";s:11:\\"tplActivate\\";s:4:\\"desc\\";s:23:\\"sendex_prop_tplActivate\\";s:4:\\"type\\";s:9:\\"textfield\\";s:7:\\"options\\";a:0:{}s:5:\\"value\\";s:19:\\"tpl.Sendex.activate\\";s:7:\\"lexicon\\";s:17:\\"sendex:properties\\";s:4:\\"area\\";s:0:\\"\\";}}","moduleguid":"","static":0,"static_file":"core\\/components\\/sendex\\/elements\\/snippets\\/snippet.sendex.php","content":"\\/** @var array $scriptProperties *\\/\\n\\/** @var Sendex $Sendex *\\/\\n$Sendex = $modx->getService(\'sendex\',\'Sendex\',$modx->getOption(\'sendex_core_path\',null,$modx->getOption(\'core_path\').\'components\\/sendex\\/\').\'model\\/sendex\\/\',$scriptProperties);\\nif (!($Sendex instanceof Sendex)) return \'\';\\n\\nif (empty($tplSubscribeAuth)) {$tplSubscribeAuth = \'tpl.Sendex.subscribe.auth\';}\\nif (empty($tplSubscribeGuest)) {$tplSubscribeGuest = \'tpl.Sendex.subscribe.guest\';}\\nif (empty($tplUnsubscribe)) {$tplUnsubscribe = \'tpl.Sendex.unsubscribe\';}\\nif (empty($tplActivate)) {$tplActivate = \'tpl.Sendex.activate\';}\\nif (empty($linkTTL)) {$linkTTL = 1800;}\\n\\nif (empty($id) || !$newsletter = $modx->getObject(\'sxNewsletter\', $id)) {\\n\\treturn $modx->lexicon(\'sendex_newsletter_err_ns\');\\n}\\n\\n\\/** @var sxNewsletter $newsletter *\\/\\nif (!$newsletter->active && empty($showInactive)) {\\n\\treturn $modx->lexicon(\'sendex_newsletter_err_disabled\');\\n}\\n\\n$placeholders = $newsletter->toArray();\\n$placeholders[\'message\'] = \'\';\\n$placeholders[\'error\'] = 0;\\nif ($modx->user->isAuthenticated($modx->context->key)) {\\n\\t$placeholders = array_merge(\\n\\t\\t$modx->user->toArray(),\\n\\t\\t$modx->user->Profile->toArray(),\\n\\t\\t$placeholders\\n\\t);\\n}\\n\\n$isAuthenticated = $modx->user->isAuthenticated($modx->context->key);\\n\\nif (!empty($_REQUEST[\'sx_action\'])) {\\n\\t$isAjax = isset($_SERVER[\'HTTP_X_REQUESTED_WITH\']) && $_SERVER[\'HTTP_X_REQUESTED_WITH\'] == \'XMLHttpRequest\';\\n\\n\\t$params = $_GET;\\n\\tunset($params[$modx->getOption(\'request_param_alias\')]);\\n\\tunset($params[$modx->getOption(\'request_param_id\')]);\\n\\n\\tswitch ($_REQUEST[\'sx_action\']) {\\n\\t\\tcase \'subscribe\':\\n\\t\\t\\tif ($isAuthenticated && $modx->user->id) {\\n\\t\\t\\t\\tif (!$response = $newsletter->Subscribe($modx->user->id)) {\\n\\t\\t\\t\\t\\t$placeholders[\'message\'] = $modx->lexicon(\'sendex_subscribe_err_email_wrong\');\\n\\t\\t\\t\\t\\t$placeholders[\'error\'] = 1;\\n\\t\\t\\t\\t}\\n\\t\\t\\t}\\n\\t\\t\\telseif (!empty($_REQUEST[\'email\'])) {\\n\\t\\t\\t\\t$email = htmlentities(strip_tags(urldecode($_REQUEST[\'email\'])));\\n\\t\\t\\t\\t$response = $newsletter->checkEmail($email, $modx->user->id, $linkTTL);\\n\\t\\t\\t\\tif ($response === true) {\\n\\t\\t\\t\\t\\t$placeholders[\'message\'] = $modx->lexicon(\'sendex_subscribe_err_already\');\\n\\t\\t\\t\\t}\\n\\t\\t\\t\\telseif ($response === false) {\\n\\t\\t\\t\\t\\t$placeholders[\'message\'] = $modx->lexicon(\'sendex_subscribe_err_email_wrong\');\\n\\t\\t\\t\\t\\t$placeholders[\'error\'] = 1;\\n\\t\\t\\t\\t}\\n\\t\\t\\t\\telse {\\n\\t\\t\\t\\t\\t$params[\'hash\'] = $response;\\n\\t\\t\\t\\t\\t$params[\'sx_action\'] = \'confirm\';\\n\\t\\t\\t\\t\\t$placeholders[\'link\'] = $modx->makeUrl($modx->resource->id, $modx->context->key, $params, \'full\');\\n\\t\\t\\t\\t\\t$placeholders[\'email_body\'] = $modx->getChunk($tplActivate, $placeholders);\\n\\t\\t\\t\\t\\t$response = $Sendex->sendEmail($email, $placeholders);\\n\\t\\t\\t\\t\\tif ($response !== true) {\\n\\t\\t\\t\\t\\t\\t$placeholders[\'message\'] = $modx->lexicon(\'sendex_subscribe_err_email_send\');\\n\\t\\t\\t\\t\\t\\t$placeholders[\'error\'] = 1;\\n\\t\\t\\t\\t\\t} else {\\n\\t\\t\\t\\t\\t    $params[\'sx_subscribed\'] = 1;\\n\\t\\t\\t\\t\\t}\\n\\t\\t\\t\\t}\\n\\t\\t\\t}\\n\\t\\t\\telse {\\n\\t\\t\\t\\t$placeholders[\'message\'] = $modx->lexicon(\'sendex_subscribe_err_email_ns\');\\n\\t\\t\\t\\t$placeholders[\'error\'] = 1;\\n\\t\\t\\t}\\n\\t\\t\\tunset($params[\'email\'], $params[\'hash\']);\\n\\t\\t\\tbreak;\\n\\t\\tcase \'confirm\':\\n\\t\\t\\tif (!empty($_REQUEST[\'hash\'])) {\\n\\t\\t\\t\\t$response = $newsletter->confirmEmail($_REQUEST[\'hash\']);\\n\\t\\t\\t\\t$params[\'sx_confirmed\'] = 1;\\n\\t\\t\\t\\tunset($params[\'hash\']);\\n\\t\\t\\t}\\n\\t\\t\\tbreak;\\n\\t\\tcase \'unsubscribe\':\\n\\t\\t\\tif (!empty($_REQUEST[\'code\'])) {\\n\\t\\t\\t\\t$response = $newsletter->unSubscribe($_REQUEST[\'code\']);\\n\\t\\t\\t\\t$params[\'sx_unsubscribed\'] = 1;\\n\\t\\t\\t}\\n\\t\\t\\tunset($params[\'code\']);\\n\\t\\t\\tbreak;\\n\\t}\\n\\n\\tunset($params[\'sx_action\']);\\n\\tif (!$isAjax && empty($placeholders[\'message\'])) {\\n\\t\\t$modx->sendRedirect($modx->makeUrl($modx->resource->id, $modx->context->key, $params, \'full\'));\\n\\t}\\n}\\n\\nif ($isAuthenticated && $id = $newsletter->isSubscribed($modx->user->id)) {\\n\\tif ($subscriber = $modx->getObject(\'sxSubscriber\', $id)) {\\n\\t\\t$placeholders = array_merge($subscriber->toArray(), $placeholders);\\n\\t}\\n\\t$output = $modx->getChunk($tplUnsubscribe, $placeholders);\\n}\\nelse {\\n\\t$output = $isAuthenticated\\n\\t\\t? $modx->getChunk($tplSubscribeAuth, $placeholders)\\n\\t\\t: $modx->getChunk($tplSubscribeGuest, $placeholders);\\n}\\n\\nif (!empty($isAjax)) {\\n\\t@session_write_close();\\n\\texit($output);\\n}\\nelse {\\n\\treturn $output;\\n}"}',
+        'guid' => 'caf9ad9de61d4691d495e6d9d3e78d06',
+        'native_key' => 0,
+        'signature' => 'fde060e42636d9ea3b4db64eae610ad5',
+      ),
+    ),
+    'Plugins' => 
+    array (
+      'f02c3feee1db12d7ac1bcfdb33910096' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+        'class' => 'modPlugin',
+        'object' => '{"id":null,"source":1,"property_preprocess":0,"name":"Sendex","description":"","editor_type":0,"category":0,"cache_type":0,"plugincode":"switch ($modx->event->name) {\\n\\n\\tcase \'OnManagerPageInit\':\\n\\t\\t$cssFile = MODX_ASSETS_URL.\'components\\/sendex\\/css\\/mgr\\/main.css\';\\n\\t\\t$modx->regClientCSS($cssFile);\\n\\t\\tbreak;\\n\\n}","locked":0,"properties":null,"disabled":0,"moduleguid":"","static":0,"static_file":"core\\/components\\/sendex\\/elements\\/plugins\\/plugin.sendex.php","content":"switch ($modx->event->name) {\\n\\n\\tcase \'OnManagerPageInit\':\\n\\t\\t$cssFile = MODX_ASSETS_URL.\'components\\/sendex\\/css\\/mgr\\/main.css\';\\n\\t\\t$modx->regClientCSS($cssFile);\\n\\t\\tbreak;\\n\\n}"}',
+        'guid' => 'c613c7e854f9aeae9b3fae3b1f785c25',
+        'native_key' => NULL,
+        'signature' => 'ce629c1ecd1ec8c25ba20db3e392a204',
+        'related_objects' => 
+        array (
+          'PluginEvents' => 
+          array (
+            '9d881d19cbc93b0e12dffbe2e5d7111f' => 
+            array (
+              'preserve_keys' => true,
+              'update_object' => true,
+              'unique_key' => 
+              array (
+                0 => 'pluginid',
+                1 => 'event',
+              ),
+              'class' => 'modPluginEvent',
+              'object' => '{"pluginid":0,"event":"OnManagerPageInit","priority":0,"propertyset":0}',
+              'guid' => '5a882beddfe70bb063bdbe1113b02bb7',
+              'native_key' => 
+              array (
+                0 => 0,
+                1 => 'OnManagerPageInit',
+              ),
+              'signature' => '98b7685de211f83257caea35ce37adbd',
+            ),
+          ),
+        ),
+      ),
+    ),
+    'Templates' => 
+    array (
+      '4bccc5f94e2562a146ade4b494ba78b9' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => false,
+        'unique_key' => 'templatename',
+        'class' => 'modTemplate',
+        'object' => '{"id":0,"source":1,"property_preprocess":0,"templatename":"Sendex","description":"Demo template for newsletter","editor_type":0,"category":0,"icon":"","template_type":0,"content":"<h1>Available placeholders in Sendex template<\\/h1>\\n<table>\\n\\t<tr><th colspan=\\"2\\">sxNewsletter Object<\\/th><\\/tr>\\n\\t<tr><td>&#91;&#91;+newsletter.id&#93;&#93;<\\/td><td>[[+newsletter.id]]<\\/td><\\/tr>\\n\\t<tr><td>&#91;&#91;+newsletter.name&#93;&#93;<\\/td><td>[[+newsletter.name]]<\\/td><\\/tr>\\n\\t<tr><td>&#91;&#91;+newsletter.description&#93;&#93;<\\/td><td>[[+newsletter.description]]<\\/td><\\/tr>\\n\\t<tr><td>&#91;&#91;+newsletter.active&#93;&#93;<\\/td><td>[[+newsletter.active]]<\\/td><\\/tr>\\n\\t<tr><td>&#91;&#91;+newsletter.template&#93;&#93;<\\/td><td>[[+newsletter.template]]<\\/td><\\/tr>\\n\\t<tr><td>&#91;&#91;+newsletter.image&#93;&#93;<\\/td><td>[[+newsletter.image]]<\\/td><\\/tr>\\n\\t<tr><td>&#91;&#91;+newsletter.email_subject&#93;&#93;<\\/td><td>[[+newsletter.email_subject]]<\\/td><\\/tr>\\n\\t<tr><td>&#91;&#91;+newsletter.email_from&#93;&#93;<\\/td><td>[[+newsletter.email_from]]<\\/td><\\/tr>\\n\\t<tr><td>&#91;&#91;+newsletter.email_from_name&#93;&#93;<\\/td><td>[[+newsletter.email_from_name]]<\\/td><\\/tr>\\n\\t<tr><td>&#91;&#91;+newsletter.email_reply&#93;&#93;<\\/td><td>[[+newsletter.email_reply]]<\\/td><\\/tr>\\n\\n\\t<tr><th colspan=\\"2\\">sxSubscriber Object<\\/th><\\/tr>\\n\\t<tr><td>&#91;&#91;+subscriber.id&#93;&#93;<\\/td><td>[[+subscriber.id]]<\\/td><\\/tr>\\n\\t<tr><td>&#91;&#91;+subscriber.newsletter_id&#93;&#93;<\\/td><td>[[+subscriber.newsletter_id]]<\\/td><\\/tr>\\n\\t<tr><td>&#91;&#91;+subscriber.user_id&#93;&#93;<\\/td><td>[[+subscriber.user_id]]<\\/td><\\/tr>\\n\\t<tr><td>&#91;&#91;+subscriber.email&#93;&#93;<\\/td><td>[[+subscriber.email]]<\\/td><\\/tr>\\n\\t<tr><td>&#91;&#91;+subscriber.code&#93;&#93;<\\/td><td>[[+subscriber.code]]<\\/td><\\/tr>\\n\\n\\t<tr><th colspan=\\"2\\">modUser Object (If a subscriber is an authorized user)<\\/th><\\/tr>\\n\\t<tr><td>&#91;&#91;+user.id&#93;&#93;<\\/td><td>[[+user.id]]<\\/td><\\/tr>\\n\\t<tr><td>&#91;&#91;+user.username&#93;&#93;<\\/td><td>[[+user.username]]<\\/td><\\/tr>\\n\\t<tr><td>&#91;&#91;+user.password&#93;&#93;<\\/td><td>[[+user.password]]<\\/td><\\/tr>\\n\\t<tr><td>&#91;&#91;+user.class_key&#93;&#93;<\\/td><td>[[+user.class_key]]<\\/td><\\/tr>\\n\\t<tr><td>&#91;&#91;+user.active&#93;&#93;<\\/td><td>[[+user.active]]<\\/td><\\/tr>\\n\\t<tr><td>&#91;&#91;+user.primary_group&#93;&#93;<\\/td><td>[[+user.primary_group]]<\\/td><\\/tr>\\n\\t<tr><td>&#91;&#91;+user.sudo&#93;&#93;<\\/td><td>[[+user.sudo]]<\\/td><\\/tr>\\n\\n\\t<tr><th colspan=\\"2\\">modUserProfile Object (If a subscriber is an authorized user)<\\/th><\\/tr>\\n\\t<tr><td>&#91;&#91;+profile.id&#93;&#93;<\\/td><td>[[+profile.id]]<\\/td><\\/tr>\\n\\t<tr><td>&#91;&#91;+profile.internalKey&#93;&#93;<\\/td><td>[[+profile.internalKey]]<\\/td><\\/tr>\\n\\t<tr><td>&#91;&#91;+profile.fullname&#93;&#93;<\\/td><td>[[+profile.fullname]]<\\/td><\\/tr>\\n\\t<tr><td>&#91;&#91;+profile.email&#93;&#93;<\\/td><td>[[+profile.email]]<\\/td><\\/tr>\\n\\t<tr><td>&#91;&#91;+profile.phone&#93;&#93;<\\/td><td>[[+profile.phone]]<\\/td><\\/tr>\\n\\t<tr><td>&#91;&#91;+profile.mobilephone&#93;&#93;<\\/td><td>[[+profile.mobilephone]]<\\/td><\\/tr>\\n\\t<tr><td>&#91;&#91;+profile.dob&#93;&#93;<\\/td><td>[[+profile.dob]]<\\/td><\\/tr>\\n\\t<tr><td>&#91;&#91;+profile.gender&#93;&#93;<\\/td><td>[[+profile.gender]]<\\/td><\\/tr>\\n\\t<tr><td>&#91;&#91;+profile.address&#93;&#93;<\\/td><td>[[+profile.address]]<\\/td><\\/tr>\\n\\t<tr><td>&#91;&#91;+profile.country&#93;&#93;<\\/td><td>[[+profile.country]]<\\/td><\\/tr>\\n\\t<tr><td>&#91;&#91;+profile.city&#93;&#93;<\\/td><td>[[+profile.city]]<\\/td><\\/tr>\\n\\t<tr><td>&#91;&#91;+profile.state&#93;&#93;<\\/td><td>[[+profile.state]]<\\/td><\\/tr>\\n\\t<tr><td>&#91;&#91;+profile.zip&#93;&#93;<\\/td><td>[[+profile.zip]]<\\/td><\\/tr>\\n\\t<tr><td>&#91;&#91;+profile.fax&#93;&#93;<\\/td><td>[[+profile.fax]]<\\/td><\\/tr>\\n\\t<tr><td>&#91;&#91;+profile.photo&#93;&#93;<\\/td><td>[[+profile.photo]]<\\/td><\\/tr>\\n\\t<tr><td>&#91;&#91;+profile.comment&#93;&#93;<\\/td><td>[[+profile.comment]]<\\/td><\\/tr>\\n\\t<tr><td>&#91;&#91;+profile.website&#93;&#93;<\\/td><td>[[+profile.website]]<\\/td><\\/tr>\\n<\\/table>\\n\\n\\n<h1>Link for unsubscribe<\\/h1>\\nLink must lead to page with Sendex call and contain right sx_action and user code:<br\\/>\\n<pre>&#91;&#91;~id_of_resource?scheme=`full`&action=`sx_unsubscribe`&code=`&#91;&#91;+subscriber.code&#93;&#93;`&#93;&#93;<\\/pre>\\n\\n<br\\/><br\\/>\\nFor example:<br\\/>\\n<a href=\\"[[~[[++site_start]]?scheme=`full`&sx_action=`unsubscribe`&code=`[[+subscriber.code]]`]]\\">Unsubscribe from this newsletter<\\/a>\\n","locked":0,"properties":null,"static":0,"static_file":"core\\/components\\/sendex\\/elements\\/templates\\/template.sendex.tpl"}',
+        'guid' => 'ba13ae09ff51da56998f562e2a1a9f2e',
+        'native_key' => 0,
+        'signature' => '939f40bdc493f2c101130c6cee813ad8',
+      ),
+    ),
+  ),
+  'related_object_attributes' => 
+  array (
+    'Snippets' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'name',
+    ),
+    'Templates' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => false,
+      'unique_key' => 'templatename',
+    ),
+    'Chunks' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => false,
+      'unique_key' => 'name',
+    ),
+    'Plugins' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'name',
+    ),
+    'PluginEvents' => 
+    array (
+      'preserve_keys' => true,
+      'update_object' => true,
+      'unique_key' => 
+      array (
+        0 => 'pluginid',
+        1 => 'event',
+      ),
+    ),
+  ),
+  'namespace' => 'sendex',
+  'resolve' => 
+  array (
+    0 => 
+    array (
+      'type' => 'file',
+      'body' => '{"source":"sendex-1.1.2-pl\\/modCategory\\/07982d08a463230dfa8847d008d92e90\\/0\\/","target":"return MODX_ASSETS_PATH . \'components\\/\';","name":"sendex"}',
+    ),
+    1 => 
+    array (
+      'type' => 'file',
+      'body' => '{"source":"sendex-1.1.2-pl\\/modCategory\\/07982d08a463230dfa8847d008d92e90\\/1\\/","target":"return MODX_CORE_PATH . \'components\\/\';","name":"sendex"}',
+    ),
+    2 => 
+    array (
+      'type' => 'php',
+      'body' => '{"source":"sendex-1.1.2-pl\\/modCategory\\/07982d08a463230dfa8847d008d92e90.resolve.tables.resolver","type":"php","name":"resolve.tables"}',
+    ),
+  ),
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '10d059a7f529e3eebf8dac27b609829f',
+  'package' => 'modx',
+  'class' => 'modCategory',
+  'signature' => '07982d08a463230dfa8847d008d92e90',
+  'native_key' => NULL,
+  'object' => '{"id":null,"parent":0,"category":"Sendex","rank":0}',
+);

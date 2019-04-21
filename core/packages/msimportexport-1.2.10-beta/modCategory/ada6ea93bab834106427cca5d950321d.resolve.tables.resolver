@@ -1,0 +1,34 @@
+<?php
+$pkgName = 'msImportExport';
+$pkgNameLower = mb_strtolower($pkgName);
+if ($object->xpdo) {
+    $modx =& $object->xpdo;
+    $modelPath = $modx->getOption("{$pkgNameLower}.core_path", null, $modx->getOption('core_path') . "components/{$pkgNameLower}/") . 'model/';
+    $sqlPath = $modelPath . 'sql/';
+    $modx->addPackage($pkgNameLower, $modelPath);
+    $manager = $modx->getManager();
+    switch ($options[xPDOTransport::PACKAGE_ACTION]) {
+        case xPDOTransport::ACTION_INSTALL:
+            $manager->createObjectContainer('MsieHeadAlias');
+            $manager->createObjectContainer('MsiePresetsFields');
+            $modx->exec(file_get_contents($sqlPath . 'presetFields.sql'));
+            $modx->exec(file_get_contents($sqlPath . 'headAlias.sql'));
+            break;
+        case xPDOTransport::ACTION_UPGRADE:
+            if (!$modx->getTableName('MsieHeadAlias')) {
+                $manager->createObjectContainer('MsiePresetsFields');
+                $modx->exec(file_get_contents($sqlPath . 'headAlias.sql'));
+            }
+            if (!$modx->getTableName('MsiePresetsFields')) {
+                $manager->createObjectContainer('MsiePresetsFields');
+                $modx->exec(file_get_contents($sqlPath . 'presetFields.sql'));
+            }
+
+            break;
+        case xPDOTransport::ACTION_UNINSTALL:/*
+			$manager->removeObjectContainer('MsieHeadAlias');
+			$manager->removeObjectContainer('MsiePresetsFields');*/
+            break;
+    }
+}
+return true;

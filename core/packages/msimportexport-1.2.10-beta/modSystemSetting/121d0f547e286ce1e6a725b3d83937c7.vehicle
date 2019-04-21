@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => 'BUILD_SETTING_UPDATE',
+  'namespace' => 'msimportexport',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '68d3d2edb8149ab4b6661d4ac8b2d063',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => '121d0f547e286ce1e6a725b3d83937c7',
+  'native_key' => 'msimportexport.import.report_chart',
+  'object' => '{"key":"msimportexport.import.report_chart","value":"1","xtype":"combo-boolean","namespace":"msimportexport","area":"import","editedon":"0000-00-00 00:00:00"}',
+);

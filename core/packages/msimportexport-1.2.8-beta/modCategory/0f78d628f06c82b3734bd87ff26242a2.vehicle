@@ -1,0 +1,75 @@
+<?php return array (
+  'unique_key' => 'category',
+  'preserve_keys' => false,
+  'update_object' => true,
+  'related_objects' => true,
+  'related_object_attributes' => 
+  array (
+    'Snippets' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'name',
+    ),
+    'Chunks' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'name',
+    ),
+    'Plugins' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'name',
+    ),
+    'PluginEvents' => 
+    array (
+      'preserve_keys' => true,
+      'update_object' => false,
+      'unique_key' => 
+      array (
+        0 => 'pluginid',
+        1 => 'event',
+      ),
+    ),
+  ),
+  'namespace' => 'msimportexport',
+  'resolve' => 
+  array (
+    0 => 
+    array (
+      'type' => 'file',
+      'body' => '{"source":"msimportexport-1.2.8-beta\\/modCategory\\/0f78d628f06c82b3734bd87ff26242a2\\/0\\/","target":"return MODX_CORE_PATH . \'components\\/\';","name":"msimportexport"}',
+    ),
+    1 => 
+    array (
+      'type' => 'file',
+      'body' => '{"source":"msimportexport-1.2.8-beta\\/modCategory\\/0f78d628f06c82b3734bd87ff26242a2\\/1\\/","target":"return MODX_ASSETS_PATH . \'components\\/\';","name":"msimportexport"}',
+    ),
+    2 => 
+    array (
+      'type' => 'php',
+      'body' => '{"source":"msimportexport-1.2.8-beta\\/modCategory\\/0f78d628f06c82b3734bd87ff26242a2.resolve.tables.resolver","type":"php","name":"resolve.tables"}',
+    ),
+    3 => 
+    array (
+      'type' => 'php',
+      'body' => '{"source":"msimportexport-1.2.8-beta\\/modCategory\\/0f78d628f06c82b3734bd87ff26242a2.resolve.settings.resolver","type":"php","name":"resolve.settings"}',
+    ),
+    4 => 
+    array (
+      'type' => 'php',
+      'body' => '{"source":"msimportexport-1.2.8-beta\\/modCategory\\/0f78d628f06c82b3734bd87ff26242a2.package.resolver.resolver","type":"php","name":"package.resolver"}',
+    ),
+  ),
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '541b97da676509dd59b18dc0e740da5a',
+  'package' => 'modx',
+  'class' => 'modCategory',
+  'signature' => '0f78d628f06c82b3734bd87ff26242a2',
+  'native_key' => 1,
+  'object' => '{"id":1,"parent":0,"category":"msImportExport","rank":0}',
+);

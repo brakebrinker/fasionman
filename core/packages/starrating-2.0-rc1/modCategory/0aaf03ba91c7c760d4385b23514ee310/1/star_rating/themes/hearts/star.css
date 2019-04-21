@@ -1,0 +1,55 @@
+/* 
+CSS Star Rating Snippet for MODx Content Management Framework (http://modxcms.com)
+Copyright (C) 2007 Garry Nutting
+CSS amended from: http://www.m3nt0r.de/devel/raterDemo/
+*/
+
+.star-rating-hearts, .star-rating-hearts a:hover, .star-rating-hearts a:active, .star-rating-hearts a:focus, .star-rating-hearts .current-rating {
+    background: url(hearts.gif) left -1000px repeat-x;
+}
+
+.star-rating-hearts a:hover, .star-rating-hearts a:active, .star-rating-hearts a:focus {
+    background-position: left bottom;
+}
+
+.star-rating-hearts {
+	position: relative;
+	width: 125px;
+	height: 25px;
+	overflow: hidden;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	background-position: left top;
+}
+
+.star-rating-hearts li.star {
+	padding: 0;
+	margin: 0;
+	background: none;
+	display: inline;
+	list-style: none;
+}
+
+.star-rating-hearts li.star span {
+    display:none;	
+}
+
+.star-rating-hearts a, .star-rating-hearts .current-rating {
+	padding: 0;
+	margin: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	text-indent: -1000em;
+	height: 25px;
+	line-height: 25px;
+	outline: none;
+	overflow: hidden;
+	border: none;
+}
+
+.star-rating-hearts .current-rating {
+    z-index: 1;
+    background-position: left center;
+}

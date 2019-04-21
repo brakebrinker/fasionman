@@ -1,0 +1,15 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => true,
+  'class' => 'modSystemSetting',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'package' => 'modx',
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '83aa00150574631ac32a4bc8aa33d87c',
+  'signature' => '63d6ac2f6de34539c07d3622caf651c0',
+  'native_key' => NULL,
+  'object' => '{"key":"ms2_payment_bepaid_hidden_fields","namespace":"minishop2","area":"ms2_payment_bepaid","editedon":null,"xtype":"textfield","value":""}',
+);

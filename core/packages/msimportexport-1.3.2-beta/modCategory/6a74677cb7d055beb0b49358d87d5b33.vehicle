@@ -1,0 +1,91 @@
+<?php return array (
+  'unique_key' => 'category',
+  'preserve_keys' => false,
+  'update_object' => true,
+  'related_objects' => 
+  array (
+    'Plugins' => 
+    array (
+      '6d195e5d55f58eb9b3944582310e3a70' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+        'class' => 'modPlugin',
+        'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"msimportexport","description":"","editor_type":0,"category":0,"cache_type":0,"plugincode":"\\/** @var modX $modx *\\/\\nswitch ($modx->event->name) {\\n    case \'msieOnBeforeImportProduct\':\\n       \\/\\/ $modx->event->params[\'destData\'][\'price\'] = 10;\\n        $modx->event->returnedValues[\'destData\'] = $modx->event->params[\'destData\'];\\n        \\/\\/$modx->log(modX::LOG_LEVEL_ERROR, print_r($modx->event->params, 1));\\n        \\/\\/$modx->event->output(\'Error\');\\n        \\/\\/$modx->event->returnedValues[\'skip\'] = true; \\/\\/ \\u043f\\u0440\\u043e\\u043f\\u0443\\u0441\\u0442\\u0438\\u0442\\u044c \\u0438\\u043c\\u043f\\u043e\\u0440\\u0442 \\u0442\\u043e\\u0432\\u0430\\u0440\\u0430\\n        break;\\n    case \'msieOnAfterImportProduct\':\\n        \\/\\/$modx->log(modX::LOG_LEVEL_ERROR, print_r($modx->event->params, 1));\\n        break;\\n    case \'msieOnCompleteImportProduct\':\\n        \\/\\/$modx->log(modX::LOG_LEVEL_ERROR, print_r($modx->event->params, 1));\\n        break;\\n}","locked":0,"properties":null,"disabled":0,"moduleguid":"","static":0,"static_file":"","content":"\\/** @var modX $modx *\\/\\nswitch ($modx->event->name) {\\n    case \'msieOnBeforeImportProduct\':\\n       \\/\\/ $modx->event->params[\'destData\'][\'price\'] = 10;\\n        $modx->event->returnedValues[\'destData\'] = $modx->event->params[\'destData\'];\\n        \\/\\/$modx->log(modX::LOG_LEVEL_ERROR, print_r($modx->event->params, 1));\\n        \\/\\/$modx->event->output(\'Error\');\\n        \\/\\/$modx->event->returnedValues[\'skip\'] = true; \\/\\/ \\u043f\\u0440\\u043e\\u043f\\u0443\\u0441\\u0442\\u0438\\u0442\\u044c \\u0438\\u043c\\u043f\\u043e\\u0440\\u0442 \\u0442\\u043e\\u0432\\u0430\\u0440\\u0430\\n        break;\\n    case \'msieOnAfterImportProduct\':\\n        \\/\\/$modx->log(modX::LOG_LEVEL_ERROR, print_r($modx->event->params, 1));\\n        break;\\n    case \'msieOnCompleteImportProduct\':\\n        \\/\\/$modx->log(modX::LOG_LEVEL_ERROR, print_r($modx->event->params, 1));\\n        break;\\n}"}',
+        'guid' => '1fe147fa035e1bf18658f58713653e79',
+        'native_key' => NULL,
+        'signature' => 'bf90cacb9a4071837505e4e5f5dec181',
+      ),
+    ),
+  ),
+  'related_object_attributes' => 
+  array (
+    'Snippets' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'name',
+    ),
+    'Chunks' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'name',
+    ),
+    'Plugins' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'name',
+    ),
+    'PluginEvents' => 
+    array (
+      'preserve_keys' => true,
+      'update_object' => false,
+      'unique_key' => 
+      array (
+        0 => 'pluginid',
+        1 => 'event',
+      ),
+    ),
+  ),
+  'namespace' => 'msimportexport',
+  'resolve' => 
+  array (
+    0 => 
+    array (
+      'type' => 'file',
+      'body' => '{"source":"msimportexport-1.3.2-beta\\/modCategory\\/6a74677cb7d055beb0b49358d87d5b33\\/0\\/","target":"return MODX_CORE_PATH . \'components\\/\';","name":"msimportexport"}',
+    ),
+    1 => 
+    array (
+      'type' => 'file',
+      'body' => '{"source":"msimportexport-1.3.2-beta\\/modCategory\\/6a74677cb7d055beb0b49358d87d5b33\\/1\\/","target":"return MODX_ASSETS_PATH . \'components\\/\';","name":"msimportexport"}',
+    ),
+    2 => 
+    array (
+      'type' => 'php',
+      'body' => '{"source":"msimportexport-1.3.2-beta\\/modCategory\\/6a74677cb7d055beb0b49358d87d5b33.resolve.tables.resolver","type":"php","name":"resolve.tables"}',
+    ),
+    3 => 
+    array (
+      'type' => 'php',
+      'body' => '{"source":"msimportexport-1.3.2-beta\\/modCategory\\/6a74677cb7d055beb0b49358d87d5b33.resolve.settings.resolver","type":"php","name":"resolve.settings"}',
+    ),
+    4 => 
+    array (
+      'type' => 'php',
+      'body' => '{"source":"msimportexport-1.3.2-beta\\/modCategory\\/6a74677cb7d055beb0b49358d87d5b33.package.resolver.resolver","type":"php","name":"package.resolver"}',
+    ),
+  ),
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'b09926da608c0de4bb9bf3c3e94dfb69',
+  'package' => 'modx',
+  'class' => 'modCategory',
+  'signature' => '6a74677cb7d055beb0b49358d87d5b33',
+  'native_key' => 1,
+  'object' => '{"id":1,"parent":0,"category":"msImportExport","rank":0}',
+);

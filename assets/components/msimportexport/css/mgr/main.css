@@ -1,0 +1,22 @@
+/* Actions */
+.action-red {color: darkred !important;}
+.x-btn-over .action-red {color: white !important;}
+
+.action-green {color: darkgreen !important;}
+.x-btn-over .action-green {color: white !important;}
+
+.action-blue {color: cadetblue !important;}
+.x-btn-over .action-blue {color: white !important;}
+
+.action-yellow {color: goldenrod !important;}
+.x-btn-over .action-yellow {color: white !important;}
+
+.action-gray {color: dimgray !important;}
+.x-btn-over .action-gray {color: white !important;}
+
+a.x-menu-item .x-menu-item-text, a.x-menu-item .x-menu-item-text .icon {cursor: pointer;}
+a.x-menu-item .x-menu-item-text .icon,
+a.x-menu-item .x-menu-item-text .fa {line-height: 16px; top: auto;}
+.x-menu-list .icon,
+.x-menu-list .fa {min-width: 1em;text-align: center;}
+.x-menu-list-item:hover .icon {color: inherit !important;}
