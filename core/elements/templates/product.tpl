@@ -36,9 +36,11 @@
         ])}</p>
 -->
           <div class="vendor-product">
-            Производитель: <img src="{$_pls['vendor.logo']}" alt=""><br>
-            {$_pls['vendor.country']} {$_pls['vendor.address']}<br>
-            {$_pls['vendor.description']}<br>
+            {if $_pls['vendor.name']}
+              Производитель: {if $_pls['vendor.logo']}<img src="{$_pls['vendor.logo']}" alt="">{else}{$_pls['vendor.name']}{/if}<br>
+              {$_pls['vendor.country']} {$_pls['vendor.address']}<br>
+              {$_pls['vendor.description']}<br>
+            {/if}
             {if $made_in}
               <strong>Страна изготовления: </strong>{$made_in}
             {/if}

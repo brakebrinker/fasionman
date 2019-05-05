@@ -2,7 +2,362 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d2ff66d-4a67-40bb-9119-4ae76cf11985" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/css/red.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.core.php" beforeDir="false" afterPath="$PROJECT_DIR$/config.core.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/connectors/config.core.php" beforeDir="false" afterPath="$PROJECT_DIR$/connectors/config.core.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/action_map/mgr/actions.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/auto_publish/auto_publish.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/context_settings/mgr/context.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/context_settings/web/context.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/default/pdomenu/08ddbed82cb8d4a67310507c71fd609f62db5d4b.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/includes/elements/modplugin/10.include.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/includes/elements/modplugin/16.include.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/includes/elements/modplugin/17.include.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/includes/elements/modplugin/18.include.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/includes/elements/modplugin/2.include.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/includes/elements/modplugin/20.include.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/includes/elements/modplugin/21.include.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/includes/elements/modplugin/3.include.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/includes/elements/modplugin/5.include.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/includes/elements/modplugin/6.include.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/includes/elements/modplugin/7.include.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/includes/elements/modplugin/9.include.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/includes/elements/modsnippet/15.include.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/includes/elements/modsnippet/17.include.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/includes/elements/modsnippet/18.include.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/includes/elements/modsnippet/2.include.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/includes/elements/modsnippet/21.include.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/includes/elements/modsnippet/22.include.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/includes/elements/modsnippet/23.include.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/includes/elements/modsnippet/28.include.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/includes/elements/modsnippet/29.include.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/includes/elements/modsnippet/30.include.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/includes/elements/modsnippet/31.include.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/includes/elements/modsnippet/79.include.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/includes/elements/modsnippet/80.include.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/includes/elements/modsnippet/81.include.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/lexicon_topics/lexicon/en/ace/default.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/lexicon_topics/lexicon/en/console/default.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/lexicon_topics/lexicon/en/core/dashboards.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/lexicon_topics/lexicon/en/core/default.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/lexicon_topics/lexicon/en/core/setting.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/lexicon_topics/lexicon/en/core/source.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/lexicon_topics/lexicon/en/formit/default.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/lexicon_topics/lexicon/en/formit/properties.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/lexicon_topics/lexicon/en/gallery/default.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/lexicon_topics/lexicon/en/gallery/tv.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/lexicon_topics/lexicon/en/migx/default.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/lexicon_topics/lexicon/en/minishop2/cart.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/lexicon_topics/lexicon/en/minishop2/default.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/lexicon_topics/lexicon/en/minishop2/manager.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/lexicon_topics/lexicon/en/minishop2/product.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/lexicon_topics/lexicon/en/minishop2/properties.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/lexicon_topics/lexicon/en/minishop2/setting.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/lexicon_topics/lexicon/en/msearch2/default.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/lexicon_topics/lexicon/en/msearch2/properties.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/lexicon_topics/lexicon/en/msimportexport/default.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/lexicon_topics/lexicon/en/pdotools/pdopage.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/lexicon_topics/lexicon/en/pdotools/properties.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/lexicon_topics/lexicon/en/sendex/default.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/lexicon_topics/lexicon/en/sendex/properties.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/lexicon_topics/lexicon/en/sisea/default.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/lexicon_topics/lexicon/en/tickets/default.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/lexicon_topics/lexicon/en/tickets/setting.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/lexicon_topics/lexicon/en/tinymce/default.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/lexicon_topics/lexicon/ru/ace/default.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/lexicon_topics/lexicon/ru/console/default.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/lexicon_topics/lexicon/ru/core/action.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/lexicon_topics/lexicon/ru/core/category.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/lexicon_topics/lexicon/ru/core/configcheck.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/lexicon_topics/lexicon/ru/core/content_type.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/lexicon_topics/lexicon/ru/core/context.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/lexicon_topics/lexicon/ru/core/dashboard.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/lexicon_topics/lexicon/ru/core/dashboards.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/lexicon_topics/lexicon/ru/core/default.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/lexicon_topics/lexicon/ru/core/events.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/lexicon_topics/lexicon/ru/core/file.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/lexicon_topics/lexicon/ru/core/menu.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/lexicon_topics/lexicon/ru/core/namespace.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/lexicon_topics/lexicon/ru/core/resource.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/lexicon_topics/lexicon/ru/core/setting.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/lexicon_topics/lexicon/ru/core/source.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/lexicon_topics/lexicon/ru/core/template.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/lexicon_topics/lexicon/ru/core/topmenu.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/lexicon_topics/lexicon/ru/core/tv_widget.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/lexicon_topics/lexicon/ru/core/user.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/lexicon_topics/lexicon/ru/core/welcome.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/lexicon_topics/lexicon/ru/core/workspace.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/lexicon_topics/lexicon/ru/formit/default.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/lexicon_topics/lexicon/ru/formit/properties.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/lexicon_topics/lexicon/ru/gallery/default.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/lexicon_topics/lexicon/ru/gallery/tv.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/lexicon_topics/lexicon/ru/migx/default.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/lexicon_topics/lexicon/ru/minishop2/cart.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/lexicon_topics/lexicon/ru/minishop2/default.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/lexicon_topics/lexicon/ru/minishop2/manager.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/lexicon_topics/lexicon/ru/minishop2/product.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/lexicon_topics/lexicon/ru/minishop2/properties.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/lexicon_topics/lexicon/ru/minishop2/setting.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/lexicon_topics/lexicon/ru/msearch2/default.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/lexicon_topics/lexicon/ru/msearch2/properties.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/lexicon_topics/lexicon/ru/msimportexport/default.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/lexicon_topics/lexicon/ru/pdotools/pdopage.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/lexicon_topics/lexicon/ru/pdotools/properties.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/lexicon_topics/lexicon/ru/sendex/default.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/lexicon_topics/lexicon/ru/sendex/properties.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/lexicon_topics/lexicon/ru/sisea/default.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/lexicon_topics/lexicon/ru/tickets/default.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/lexicon_topics/lexicon/ru/tickets/setting.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/lexicon_topics/lexicon/ru/tinymce/default.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/logs/error.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/media_sources/web/source.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/menu/menus/topnav/ru.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/menu/menus/usernav/ru.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/mgr/smarty/32249779ddd2aea13f14d4e3335b1f31574f03de_0.file.default.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/mgr/smarty/3b0332bf168a2a7475625c8d65f65473513f711b_0.file.textbox.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/mgr/smarty/5273ec8201c965bfb5ae5f34427df5973980d338_0.file.image.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/mgr/smarty/8ef1e1148e9b994ae48f127b256badf306a989fe_0.file.email.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/mgr/smarty/9e5aaac067877b0493723b10cce4ffd173602a18_0.file.fields.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/mgr/smarty/cd60a5d877d7709979a5f5229a95b959b0a696d2_0.file.radio.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/mgr/smarty/d197d8c4f411bc0455bd21623d8d71b69ae8d357_0.file.empty.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/mgr/smarty/default/064d5bdca4820251f4a7f6fe78d0d132bbc046d3_0.file.update.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/mgr/smarty/default/1ea1b8debee4eaadfd9c7f04be6628ef52e8ae08_0.file.home.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/mgr/smarty/default/256d3adb1f5572cfd2e59abb5b001e953704bfd0_0.file.create.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/mgr/smarty/default/3b0332bf168a2a7475625c8d65f65473513f711b_0.file.textbox.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/mgr/smarty/default/3f716517fbcbab055aac1e5470a6d555b841d81a_0.file.header.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/mgr/smarty/default/3fb650363e98bd0badd3c07b4bd378b19bf09bca_0.file.import.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/mgr/smarty/default/489aeb148b51321de3e3398f27ea1496a88b0e53_0.file.textarea.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/mgr/smarty/default/50e00c4071c74731bfcf2d574c8888f131e3a370_0.file.setuptab.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/mgr/smarty/default/5273ec8201c965bfb5ae5f34427df5973980d338_0.file.image.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/mgr/smarty/default/5c3728749338fdb767f52b8005f1b2cf656160fc_0.file.welcome.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/mgr/smarty/default/5e9a1b0083144670dec8bd21a91c309eabd50450_0.file.update.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/mgr/smarty/default/686990bfb6f259cc819ae715e182784e194c0f75_0.file.url.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/mgr/smarty/default/8b735902173674638085f0584b0e77111ef68fcc_0.file.footer.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/mgr/smarty/default/91607b83c5a9cc29a060702ca9862fb215d915a9_0.file.update.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/mgr/smarty/default/9b8d3cbbca9854f8aaf2791180a00d346e60444a_0.file.iframewindow.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/mgr/smarty/default/a1519dff76d4fcdb38274561b1f6d88e207215d9_0.file.update.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/mgr/smarty/default/aaa443c4838e21cd7f1c7a47a1ceb99fd6eb514e_0.file.email.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/mgr/smarty/default/ccd0e165ff85b897e008a36217dab789546370f9_0.file.updatewindow.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/mgr/smarty/default/cd122cf41897321cb34a31df1b9fa2977017a5aa_0.file.packagemanagertab.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/mgr/smarty/default/d587d8e859ac4afa79626e58f59fbb72835e8e93_0.file.migx.grid.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/mgr/smarty/default/d64688a4543573f6a3bc5cb93d5308207d717958_0.file.default.grid.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/mgr/smarty/default/dd8b339aca6f54f8094725fadcb1963b6365dc61_0.file.login.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/mgr/smarty/default/e471338729a901dd34f3379271e08c7c3afb0f5f_0.file.update.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/mgr/smarty/default/ea5c8af4dbb55639ddfb2959390c102f161a208a_0.file.gridpanel.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/mgr/smarty/default/ec203ae0526589c692d24a45745f3f91e71f00c2_0.file.index.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/mgr/smarty/default/f8911eeef8a92e019b4c5fb36d6913f2d862f690_0.file.update.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/mgr/smarty/default/f8a1004ab64c9fe5827c7437ad6336eb5cb85fef_0.file.tvs.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/mgr/smarty/default/f9af86e71bf59480f90ba8e1991676d46222635a_0.file.migx.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/mgr/smarty/default/fe2c84ad23505b56179395c6772bc5e8b2527fad_0.file.cmptab.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/mgr/smarty/default/wrt5cbb033190d710_82355649" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/namespaces/namespaces.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/packages/mgr/providers/updates/1/ace-1.6.5-pl.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/packages/mgr/providers/updates/1/breadcrumbs-1.1.0-pl.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/packages/mgr/providers/updates/1/console-2.2.0-beta.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/packages/mgr/providers/updates/1/formit-2.2.11-pl.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/packages/mgr/providers/updates/1/gallery-1.7.0-pl.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/packages/mgr/providers/updates/1/getpage-1.2.4-pl.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/packages/mgr/providers/updates/1/getresourcefield-1.0.3-pl.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/packages/mgr/providers/updates/1/getresources-1.6.1-pl.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/packages/mgr/providers/updates/1/googlesitemap-2.0.2-rc1.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/packages/mgr/providers/updates/1/login-1.9.2-pl.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/packages/mgr/providers/updates/1/migx-2.9.6-pl.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/packages/mgr/providers/updates/1/pdotools-2.8.0-pl.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/packages/mgr/providers/updates/1/sdstore-1.0.1-pl.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/packages/mgr/providers/updates/1/simplesearch-1.9.2-pl.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/packages/mgr/providers/updates/1/starrating-2.0-rc1.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/packages/mgr/providers/updates/1/tinymce-4.3.4-pl.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/packages/mgr/providers/updates/1/translit-1.0.0-beta.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/packages/mgr/providers/updates/1/wayfinder-2.3.3-pl.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/packages/mgr/providers/updates/3/msearch2-1.7.3-pl.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/packages/mgr/providers/updates/3/msimportexport-1.3.3-beta.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/packages/mgr/providers/updates/3/mspbepaid-1.1.3-pl.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/packages/mgr/providers/updates/3/sendex-1.1.2-pl.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/phpthumb/fasionman.local__src06df28f1de92cecea5262886724e86b0_par02a1b054e8467fb1e234c8a8fd8d10d2_dat1480750095.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/phpthumb/fasionman.local__src0c2b22bf4d3341882f10d54b505e8acb_pareed4e4a0c35789374975c2e5e5384a94_dat1483086424.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/phpthumb/fasionman.local__src11a7d88dbd5e2dd93be8cdd9a2f3856f_par02a1b054e8467fb1e234c8a8fd8d10d2_dat1480750142.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/phpthumb/fasionman.local__src1271898f846501a9f40cf917f26e5fdc_par02a1b054e8467fb1e234c8a8fd8d10d2_dat1480750097.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/phpthumb/fasionman.local__src1774d9865dbbbaf7f837e20432dee826_par02a1b054e8467fb1e234c8a8fd8d10d2_dat1480750115.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/phpthumb/fasionman.local__src1c7ad809d580188e26076a31a46de9ca_par02a1b054e8467fb1e234c8a8fd8d10d2_dat1480750085.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/phpthumb/fasionman.local__src1cc5885fa47d17335a9a4908a1016ce0_par02a1b054e8467fb1e234c8a8fd8d10d2_dat1483977814.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/phpthumb/fasionman.local__src1f601c0b588143668541a3528744132c_par02a1b054e8467fb1e234c8a8fd8d10d2_dat1480750137.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/phpthumb/fasionman.local__src269a9dd53b686560a8b9151cb2e6fdc0_par7aaa1128c20b381fbe1d3e84721e780a_dat1483600528.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/phpthumb/fasionman.local__src2769c5d0e49843dc63bf1b6fa2088485_parca988557e88613a2a7b787bcc8e7bee9_dat1480750083.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/phpthumb/fasionman.local__src2f80638795c10cba1777b109ac391a9a_par02a1b054e8467fb1e234c8a8fd8d10d2_dat1480750096.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/phpthumb/fasionman.local__src33786dce893122bd6d2309323b40bfbf_par61967f03464e9772bcb49e7a4ab73d27_dat1485278574.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/phpthumb/fasionman.local__src35174358e7252f032ca06e14861a0b61_par02a1b054e8467fb1e234c8a8fd8d10d2_dat1480750087.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/phpthumb/fasionman.local__src35ed2acd986168e6b31410f8fbd0d945_para252ffaa935564fa966578b1563f7758_dat1483085184.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/phpthumb/fasionman.local__src369d14093fb83241fd2f7bad3b957b52_parca988557e88613a2a7b787bcc8e7bee9_dat1480750084.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/phpthumb/fasionman.local__src36a1c5620bbe7f21b1045b6675f6a6c1_par56a0174495231e3c03c37f682602b6fb_dat1480750094.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/phpthumb/fasionman.local__src3d77f204df1cdf52d132193065d2a3a9_par02a1b054e8467fb1e234c8a8fd8d10d2_dat1480750101.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/phpthumb/fasionman.local__src3ef3b79f3cc22804980999bc96597d68_par02a1b054e8467fb1e234c8a8fd8d10d2_dat1480750081.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/phpthumb/fasionman.local__src3ef3b79f3cc22804980999bc96597d68_par0ba78bb0326502335f8683fdf331013a_dat1480750081.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/phpthumb/fasionman.local__src3ef3b79f3cc22804980999bc96597d68_pard5aa3db89f4daf3343c5075453f1f875_dat1480750081.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/phpthumb/fasionman.local__src42c020cc0eeb88ed58d6de0963ab3b3d_par02a1b054e8467fb1e234c8a8fd8d10d2_dat1556988060.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/phpthumb/fasionman.local__src42c020cc0eeb88ed58d6de0963ab3b3d_par0ba78bb0326502335f8683fdf331013a_dat1556988060.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/phpthumb/fasionman.local__src42c020cc0eeb88ed58d6de0963ab3b3d_para1fced04fea50708b93de55fd251e064_dat1556988060.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/phpthumb/fasionman.local__src42c020cc0eeb88ed58d6de0963ab3b3d_parfe75230c38c1dd77cfb659e43ae25583_dat1556988060.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/phpthumb/fasionman.local__src46ef7ef4db920183133a44e690458fdd_par02a1b054e8467fb1e234c8a8fd8d10d2_dat1480750113.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/phpthumb/fasionman.local__src4872c18421f3286832e7fb822e50c6eb_par02a1b054e8467fb1e234c8a8fd8d10d2_dat1485278575.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/phpthumb/fasionman.local__src4a8ee51d69fad909b113f48a3eee44c4_par96e013b9a485f50ec9cc1969d56c7c43_dat1483603378.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/phpthumb/fasionman.local__src4b2b4bc91b87dce35412407b8a81f9f3_par02a1b054e8467fb1e234c8a8fd8d10d2_dat1480750102.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/phpthumb/fasionman.local__src4e27acbcb2d61bba708169925613ba54_par81ee75a37ef1580ea4fda5c0537b2021_dat1483953507.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/phpthumb/fasionman.local__src571061fbb302a6d94b7f75d5c363ae24_par78d92283eff37cee3e985bdb0780ae83_dat1485278573.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/phpthumb/fasionman.local__src5be4fc8d241cd20c70c85b81367aa374_par02a1b054e8467fb1e234c8a8fd8d10d2_dat1480750098.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/phpthumb/fasionman.local__src5c7abc490953d6f4fabe13b9530ec082_par26197b2da97b4f07a2e65bbaac25f073_dat1483085184.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/phpthumb/fasionman.local__src5dc6f7d6e32f90bf044480429f16ce86_par4d3c2a1aa1add7b5eb41cbf046f506ac_dat1480750074.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/phpthumb/fasionman.local__src5dc6f7d6e32f90bf044480429f16ce86_parb910161739970866bdaea7467a38f92a_dat1480750074.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/phpthumb/fasionman.local__src5dff5e65e0b63d4cbe519fab63805b80_par02a1b054e8467fb1e234c8a8fd8d10d2_dat1483101455.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/phpthumb/fasionman.local__src60b4bbfc52bf8902f81536621b834507_par3d22b59cc1b3d3ceca5f4ba8b7df6b63_dat1480750095.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/phpthumb/fasionman.local__src619cf766646b956ade0be54f355d4d8a_parb21bbe7af5384ac57d3bc0892c6b09ae_dat1483599697.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/phpthumb/fasionman.local__src63b87ffc5d7d0f2d07cb0e73986e08e1_par3d22b59cc1b3d3ceca5f4ba8b7df6b63_dat1480750135.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/phpthumb/fasionman.local__src64a284248f96b60e5e68522762847570_par02a1b054e8467fb1e234c8a8fd8d10d2_dat1485278413.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/phpthumb/fasionman.local__src64a284248f96b60e5e68522762847570_par0ba78bb0326502335f8683fdf331013a_dat1485278413.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/phpthumb/fasionman.local__src64de2b2840b9064c0a681fd0ca99e06b_parc46cdf6823a008b28f77cb767fe7d68d_dat1480750115.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/phpthumb/fasionman.local__src66075baa6f4d6eedd0b145cee4aa9752_par02a1b054e8467fb1e234c8a8fd8d10d2_dat1485278342.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/phpthumb/fasionman.local__src66075baa6f4d6eedd0b145cee4aa9752_par0ba78bb0326502335f8683fdf331013a_dat1485278342.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/phpthumb/fasionman.local__src66075baa6f4d6eedd0b145cee4aa9752_parfe75230c38c1dd77cfb659e43ae25583_dat1485278342.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/phpthumb/fasionman.local__src672dba20b56434d362f1a52bbec216ef_par02a1b054e8467fb1e234c8a8fd8d10d2_dat1480750075.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/phpthumb/fasionman.local__src682b1bc83a312768aba11e36b29ecb12_par02a1b054e8467fb1e234c8a8fd8d10d2_dat1480750082.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/phpthumb/fasionman.local__src6b697c9e43a0de5a86e7b213192dd678_par21518bbd9e349e021bd61eaf57a91c37_dat1483956669.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/phpthumb/fasionman.local__src6cfa4a8762ba751d3fa94778ff79bbd3_par02a1b054e8467fb1e234c8a8fd8d10d2_dat1480750111.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/phpthumb/fasionman.local__src7092f60bb327268bc176584588ceb7f3_par88f7164b059fe4c4172d6ec5522323cf_dat1483105837.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/phpthumb/fasionman.local__src71909c243a1ed8e01808469e5cb61f8a_par02a1b054e8467fb1e234c8a8fd8d10d2_dat1480750105.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/phpthumb/fasionman.local__src72a51ff5ebbc29a32fb2ce334d4463ca_parc46cdf6823a008b28f77cb767fe7d68d_dat1480750099.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/phpthumb/fasionman.local__src73e649137e6de842f3f9981de9337676_par02a1b054e8467fb1e234c8a8fd8d10d2_dat1485278575.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/phpthumb/fasionman.local__src75532f978af7dcb4f7810a5d7ae90aad_par02a1b054e8467fb1e234c8a8fd8d10d2_dat1480750097.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/phpthumb/fasionman.local__src76ca1c47c97d89943323deaa226e9126_par02a1b054e8467fb1e234c8a8fd8d10d2_dat1480750087.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/phpthumb/fasionman.local__src76ca1c47c97d89943323deaa226e9126_pard5aa3db89f4daf3343c5075453f1f875_dat1480750087.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/phpthumb/fasionman.local__src798c4fb79670b138189ace1fca724ce4_par2c21b60e3b277e6ed90926138c7a7385_dat1483978785.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/phpthumb/fasionman.local__src7e52d6cf25581e4ece8d35c23b64b184_para7e7c4e1a6cef9c13dcc50158e486806_dat1483085782.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/phpthumb/fasionman.local__src85c378aa19a3524ec478c24a3307b15f_parca7a945b18158cb7703ddcd486a94130_dat1480750085.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/phpthumb/fasionman.local__src8a5a92b67696fbd1b89a1559c7737df8_par02a1b054e8467fb1e234c8a8fd8d10d2_dat1480750135.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/phpthumb/fasionman.local__src8f17d116460eaf0e11c97caa7ce3a6fe_par02a1b054e8467fb1e234c8a8fd8d10d2_dat1480750097.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/phpthumb/fasionman.local__src8f790c3304419b947201c476e2b41da0_par02a1b054e8467fb1e234c8a8fd8d10d2_dat1485278414.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/phpthumb/fasionman.local__src8f790c3304419b947201c476e2b41da0_par0ba78bb0326502335f8683fdf331013a_dat1485278414.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/phpthumb/fasionman.local__src9252ffd711c668c4f3d78cca299dd850_par02a1b054e8467fb1e234c8a8fd8d10d2_dat1480750118.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/phpthumb/fasionman.local__src92c387da252eae65fba6c865b3a470c9_par61967f03464e9772bcb49e7a4ab73d27_dat1480750098.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/phpthumb/fasionman.local__src95734e50c224cfcaff8e8ab093dbb864_parb54dd4aad8197a2a5ee51a8acfb34491_dat1483598355.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/phpthumb/fasionman.local__src968de1785aa32a7910c922ad4585a65b_par02a1b054e8467fb1e234c8a8fd8d10d2_dat1480750098.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/phpthumb/fasionman.local__src9a0c539d07b0427649e546f30cf0a692_par02a1b054e8467fb1e234c8a8fd8d10d2_dat1485282366.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/phpthumb/fasionman.local__src9bf270bb4ed9ad24e7b8e258626faaff_par02a1b054e8467fb1e234c8a8fd8d10d2_dat1480750144.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/phpthumb/fasionman.local__src9d6d53caebc6a5bf6c5f25c2ca4b1e06_par02a1b054e8467fb1e234c8a8fd8d10d2_dat1480750157.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/phpthumb/fasionman.local__src9fab62b1d44f915deb4125943879a2db_par02a1b054e8467fb1e234c8a8fd8d10d2_dat1480750100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/phpthumb/fasionman.local__srca11a4e3b04dd046b55cbef339f1855a0_par02a1b054e8467fb1e234c8a8fd8d10d2_dat1480750094.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/phpthumb/fasionman.local__srca51c92008642ade1cee2342ed66ea464_par02a1b054e8467fb1e234c8a8fd8d10d2_dat1482758496.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/phpthumb/fasionman.local__srca699e50166ab7b6614798e72ac45e9ca_parc09c82bfc32fccd980ceb7df15bc9627_dat1480750157.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/phpthumb/fasionman.local__srca716d9ebc9f88ed221b7260861074d2c_par02a1b054e8467fb1e234c8a8fd8d10d2_dat1485278351.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/phpthumb/fasionman.local__srca716d9ebc9f88ed221b7260861074d2c_parfe75230c38c1dd77cfb659e43ae25583_dat1485278351.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/phpthumb/fasionman.local__srca96ab157cf54b489c9bce1b55dd191cc_parc46cdf6823a008b28f77cb767fe7d68d_dat1480750099.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/phpthumb/fasionman.local__srcb0815bfe730d5415ab915d8fac0f7e1f_par02a1b054e8467fb1e234c8a8fd8d10d2_dat1485278414.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/phpthumb/fasionman.local__srcb0815bfe730d5415ab915d8fac0f7e1f_par0ba78bb0326502335f8683fdf331013a_dat1485278414.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/phpthumb/fasionman.local__srcb3ddeefb37f51067a51f3a74371543d0_par9dca298b92f2fea560a04888535c6ce6_dat1480750075.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/phpthumb/fasionman.local__srcb3ddeefb37f51067a51f3a74371543d0_parc46cdf6823a008b28f77cb767fe7d68d_dat1480750075.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/phpthumb/fasionman.local__srcb8c4cdc5a1846a6a02084768402b2725_par61967f03464e9772bcb49e7a4ab73d27_dat1485278574.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/phpthumb/fasionman.local__srcbd6a36b72439d9294d1d3c7128133bbc_par02a1b054e8467fb1e234c8a8fd8d10d2_dat1485278351.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/phpthumb/fasionman.local__srcbd6a36b72439d9294d1d3c7128133bbc_parfe75230c38c1dd77cfb659e43ae25583_dat1485278351.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/phpthumb/fasionman.local__srcbe441510d7b0cc8b0973f33f9db201df_par70fa0bdeaadf7ba728a63c38f9434f31_dat1480750096.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/phpthumb/fasionman.local__srcc742d21002c9acd61e03b121c9efcdfa_par02a1b054e8467fb1e234c8a8fd8d10d2_dat1480750098.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/phpthumb/fasionman.local__srcc99adad975a445d18b103bede16ca292_parb7041fb97bd102de8b90ca7b554edd0f_dat1483085782.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/phpthumb/fasionman.local__srccbc8eff0ae8723f72a8b21f174b6b011_par61967f03464e9772bcb49e7a4ab73d27_dat1483091051.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/phpthumb/fasionman.local__srcd039b43b4afb8532aeeea262d5cd8604_par10ed28c9dfe4bd4678167eb9ed376872_dat1483959322.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/phpthumb/fasionman.local__srcd29d2d067f8defa2a591c22d4d31b09a_parc46cdf6823a008b28f77cb767fe7d68d_dat1480750158.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/phpthumb/fasionman.local__srcd665b439f6a95d962595d65737cbbe42_par6a3c630dc6ff152b87cffdd7148126ef_dat1480750087.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/phpthumb/fasionman.local__srcd8c3211b2dd6921a7c62dfb637c8ff6a_parc46cdf6823a008b28f77cb767fe7d68d_dat1480750102.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/phpthumb/fasionman.local__srcdb299f02a11c5bc3773ab6eb4b9104cb_par02a1b054e8467fb1e234c8a8fd8d10d2_dat1480750160.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/phpthumb/fasionman.local__srce00698cf1138f67e892c45bd7c289130_parc46cdf6823a008b28f77cb767fe7d68d_dat1480750116.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/phpthumb/fasionman.local__srce50e38928569c66cf3e0a7db6311521b_par02a1b054e8467fb1e234c8a8fd8d10d2_dat1480750134.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/phpthumb/fasionman.local__srce851006886d543177b9c9cbd04b70134_par6c0a50fc8810e7d7c15b21288dd49671_dat1483980148.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/phpthumb/fasionman.local__srcf1f4de9001f950bc272065338f981fc4_pareb9915c225351dc52e742960ca564706_dat1480750135.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/phpthumb/fasionman.local__srcf25856a4bdcf9f3f4181a205395c37c0_par02a1b054e8467fb1e234c8a8fd8d10d2_dat1480750102.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/phpthumb/fasionman.local__srcf2b724a77c037e6f2c341f3c606a4659_parc46cdf6823a008b28f77cb767fe7d68d_dat1480750098.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/phpthumb/fasionman.local__srcf9ee5075feaca925281ff204a29bb0e8_par02a1b054e8467fb1e234c8a8fd8d10d2_dat1480750087.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/phpthumb/fasionman.local__srcfa51db9f000ca7f0c5ee50c312d96923_par02a1b054e8467fb1e234c8a8fd8d10d2_dat1480750097.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/phpthumb/fasionman.local__srcfe11dc9af43ecdffaf26f90275270853_pare4c28093bee33895431e69023116b1d2_dat1480750101.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/phpthumb/phpThumbCacheIMcommandlineBase.txt" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/phpthumb/phpThumbCacheIMversion.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/phpthumb/phpThumbCacheStats.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/registry/state/ys/user-1/curFocus.msg.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/registry/state/ys/user-1/ext-gen357-tree.msg.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/registry/state/ys/user-1/ext-gen42.msg.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/registry/state/ys/user-1/ext-gen455-tree.msg.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/registry/state/ys/user-1/ext-gen487-tree.msg.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/registry/state/ys/user-1/ext-gen517-tree.msg.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/registry/state/ys/user-1/ext-gen520-tree.msg.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/registry/state/ys/user-1/gupitext-gen254.msg.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/registry/state/ys/user-1/minishop2-categories-tree.msg.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/registry/state/ys/user-1/minishop2-category-update-tabpanel.msg.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/registry/state/ys/user-1/minishop2-grid-delivery.msg.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/registry/state/ys/user-1/minishop2-grid-order-products.msg.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/registry/state/ys/user-1/minishop2-grid-orders.msg.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/registry/state/ys/user-1/minishop2-product-create-tabpanel-product.msg.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/registry/state/ys/user-1/minishop2-product-create-tabpanel.msg.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/registry/state/ys/user-1/minishop2-product-update-tabpanel-product.msg.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/registry/state/ys/user-1/minishop2-product-update-tabpanel.msg.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/registry/state/ys/user-1/minishop2-settings-tabs.msg.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/registry/state/ys/user-1/minishop2-window-order-update.msg.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/registry/state/ys/user-1/modx-dashboards-tabpanel.msg.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/registry/state/ys/user-1/modx-gr-tree-resource.msg.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/registry/state/ys/user-1/modx-gr-tree-resourcegroup.msg.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/registry/state/ys/user-1/modx-ih-resource-tree.msg.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/registry/state/ys/user-1/modx-leftbar-tabpanel.msg.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/registry/state/ys/user-1/modx-resource-tree.msg.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/registry/state/ys/user-1/modx-tree-element.msg.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/registry/state/ys/user-1/modx-tree-menu.msg.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/registry/state/ys/user-1/modx-tree-usergroup.msg.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/registry/state/ys/user-1/msie-import-tabs.msg.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/registry/state/ys/user-1/source-tree-1.msg.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/registry/state/ys/user-1/source-tree-2.msg.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/registry/state/ys/user-1/source-tree-3.msg.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/registry/state/ys/user-1/source-tree-4.msg.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/registry/state/ys/user-1/undefined-sort-default.msg.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/registry/state/ys/user-1/undefined-sort.msg.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/resource/web/resources/83.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/resource/web/resources/83/title_crumbs.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/resource/web/resources/84.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/resource/web/resources/84/title_crumbs.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/rss/7466e740367bb5cff05d86d7093d2b46" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/rss/db08533834b22a850d2a76c183fa8c9e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/scripts/elements/modplugin/10.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/scripts/elements/modplugin/16.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/scripts/elements/modplugin/17.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/scripts/elements/modplugin/18.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/scripts/elements/modplugin/2.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/scripts/elements/modplugin/20.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/scripts/elements/modplugin/21.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/scripts/elements/modplugin/3.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/scripts/elements/modplugin/5.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/scripts/elements/modplugin/6.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/scripts/elements/modplugin/7.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/scripts/elements/modplugin/9.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/scripts/elements/modsnippet/15.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/scripts/elements/modsnippet/17.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/scripts/elements/modsnippet/18.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/scripts/elements/modsnippet/2.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/scripts/elements/modsnippet/21.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/scripts/elements/modsnippet/22.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/scripts/elements/modsnippet/23.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/scripts/elements/modsnippet/28.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/scripts/elements/modsnippet/29.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/scripts/elements/modsnippet/30.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/scripts/elements/modsnippet/31.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/scripts/elements/modsnippet/79.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/scripts/elements/modsnippet/80.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/scripts/elements/modsnippet/81.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cache/system_settings/config.cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/config/config.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/config/config.inc.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/elements/chunks/header.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/core/elements/chunks/header.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/elements/chunks/meta.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/core/elements/chunks/meta.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/elements/chunks/socialIcons.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/core/elements/chunks/socialIcons.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/elements/templates/contact.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/core/elements/templates/contact.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/elements/templates/delivery.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/core/elements/templates/delivery.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/elements/templates/home.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/core/elements/templates/home.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/elements/templates/payment.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/core/elements/templates/payment.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/elements/templates/product.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/core/elements/templates/product.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/elements/templates/shopfiltr.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/core/elements/templates/shopfiltr.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manager/config.core.php" beforeDir="false" afterPath="$PROJECT_DIR$/manager/config.core.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,83 +365,113 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-935869624">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="css" value="2" />
+          <entry key="gitignore" value="1" />
+          <entry key="htaccess" value="1" />
+          <entry key="php" value="5" />
+          <entry key="tpl" value="26" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSS" value="2" />
+          <entry key="PHP" value="5" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Smarty" value="26" />
+          <entry key="htaccess" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="gitignore" value="53" />
+          <entry key="php" value="1" />
+          <entry key="tpl" value="203" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PHP" value="1" />
+          <entry key="PLAIN_TEXT" value="53" />
+          <entry key="Smarty" value="203" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/elements/chunks/filters/mFilterProduct.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="16" />
+            <state>
+              <caret column="30" selection-start-column="30" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/elements/templates/m2search.tpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="156">
+              <caret line="26" column="54" selection-start-line="26" selection-start-column="54" selection-end-line="26" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/elements/templates/shopfiltr.tpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="477">
+              <caret line="36" column="73" selection-start-line="36" selection-start-column="73" selection-end-line="36" selection-end-column="73" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/core/elements/templates/product.tpl">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="69" column="29" selection-start-line="69" selection-start-column="29" selection-end-line="69" selection-end-column="29" />
+            <state relative-caret-position="42">
+              <caret line="2" column="10" lean-forward="true" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/elements/chunks/header.tpl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="9" column="108" selection-start-line="9" selection-start-column="80" selection-end-line="9" selection-end-column="108" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/elements/chunks/footer.tpl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1500">
-              <caret line="75" column="62" selection-start-line="75" selection-start-column="62" selection-end-line="75" selection-end-column="62" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/elements/templates/home.tpl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/elements/templates/contact.tpl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="980">
-              <caret line="49" column="17" selection-start-line="49" selection-start-column="17" selection-end-line="49" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/elements/chunks/productGallery.tpl">
+        <entry file="file://$PROJECT_DIR$/core/elements/chunks/filters/filter2Outer.tpl">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/elements/chunks/productRelated.tpl">
+        <entry file="file://$PROJECT_DIR$/core/elements/chunks/filters/typeFilterCheckbox.tpl">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/elements/chunks/socialIcons.tpl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/core/elements/chunks/filters/priceFilterSlider.tpl">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/elements/chunks/titlebar.tpl">
+        <entry file="file://$PROJECT_DIR$/core/elements/chunks/filters/priceFilterNumber.tpl">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/elements/chunks/mSearchForm.tpl">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/elements/chunks/mSearchAutoCompl.tpl">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
@@ -100,7 +485,17 @@
       <find>mse2_results</find>
       <find>class=&quot;row msearch2&quot;</find>
       <find>{$_modx-&gt;resource.id}</find>
+      <find>#fa5b0f</find>
+      <find>contact_city</find>
+      <find>#ec4833</find>
+      <find>headline-filter</find>
+      <find>mse2_mfilter</find>
+      <find>parallax-titlebar fullwidth-element</find>
     </findStrings>
+    <replaceStrings>
+      <replace>#ec4833</replace>
+      <replace>#ec3333</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -112,20 +507,37 @@
         <option value="$PROJECT_DIR$/core/elements/chunks/cart.tpl" />
         <option value="$PROJECT_DIR$/core/elements/chunks/orderCart.tpl" />
         <option value="$PROJECT_DIR$/core/elements/chunks/orderBilling.tpl" />
-        <option value="$PROJECT_DIR$/assets/css/style.min.css" />
         <option value="$PROJECT_DIR$/core/elements/chunks/filters/mFilterProduct.tpl" />
-        <option value="$PROJECT_DIR$/core/elements/chunks/header.tpl" />
-        <option value="$PROJECT_DIR$/core/elements/templates/contact.tpl" />
         <option value="$PROJECT_DIR$/core/elements/chunks/footer.tpl" />
+        <option value="$PROJECT_DIR$/config.core.php" />
+        <option value="$PROJECT_DIR$/core/config/config.inc.php" />
+        <option value="$PROJECT_DIR$/core/elements/templates/payment.tpl" />
+        <option value="$PROJECT_DIR$/core/elements/chunks/header.tpl" />
+        <option value="$PROJECT_DIR$/core/elements/chunks/meta.tpl" />
+        <option value="$PROJECT_DIR$/assets/css/red.css" />
+        <option value="$PROJECT_DIR$/assets/css/style.min.css" />
+        <option value="$PROJECT_DIR$/core/elements/templates/contact.tpl" />
+        <option value="$PROJECT_DIR$/core/elements/templates/delivery.tpl" />
+        <option value="$PROJECT_DIR$/core/elements/chunks/socialIcons.tpl" />
+        <option value="$PROJECT_DIR$/core/elements/templates/home.tpl" />
         <option value="$PROJECT_DIR$/core/elements/templates/product.tpl" />
+        <option value="$PROJECT_DIR$/core/elements/templates/m2search.tpl" />
+        <option value="$PROJECT_DIR$/core/elements/templates/shopfiltr.tpl" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="100" />
-    <option name="y" value="20" />
-    <option name="width" value="1400" />
-    <option name="height" value="820" />
+    <option name="x" value="27" />
+    <option name="y" value="23" />
+    <option name="width" value="1778" />
+    <option name="height" value="992" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -133,7 +545,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -144,49 +555,33 @@
             <path>
               <item name="fasionman" type="b2602c69:ProjectViewProjectNode" />
               <item name="fasionman" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="fasionman" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fasionman" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="fasionman" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fasionman" type="462c0819:PsiDirectoryNode" />
               <item name="core" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="fasionman" type="b2602c69:ProjectViewProjectNode" />
               <item name="fasionman" type="462c0819:PsiDirectoryNode" />
               <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="elements" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="fasionman" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fasionman" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="elements" type="462c0819:PsiDirectoryNode" />
-              <item name="chunks" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="fasionman" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fasionman" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="elements" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/css" />
+      <recent name="$PROJECT_DIR$/manager" />
+      <recent name="$PROJECT_DIR$/connectors" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -212,18 +607,21 @@
       <updated>1555765289157</updated>
       <workItem from="1555765292008" duration="10894000" />
       <workItem from="1555831479584" duration="2151000" />
+      <workItem from="1557077421480" duration="6240000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13045000" />
+    <option name="totallyTimeSpent" value="19285000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <frame x="0" y="23" width="1920" height="1057" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21786633" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21991481" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Thumbnails" weight="0.32953367" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -232,9 +630,9 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.5921938" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.28601035" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -245,14 +643,10 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/assets/css/style.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="12" column="109330" selection-start-line="12" selection-start-column="109330" selection-end-line="12" selection-end-column="109330" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/elements/chunks/orderBilling.tpl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="440">
@@ -301,79 +695,186 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/elements/chunks/productGrid.tpl">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/elements/chunks/filters/filter2Outer.tpl">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/elements/chunks/filters/priceFilterNumber.tpl">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/elements/chunks/filters/priceFilterSlider.tpl">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/elements/chunks/filters/typeFilterCheckbox.tpl">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/elements/chunks/productOptionsIntro.tpl">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/elements/chunks/filters/mFilterProduct.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/elements/chunks/header.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" column="108" selection-start-line="9" selection-start-column="80" selection-end-line="9" selection-end-column="108" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/core/elements/chunks/footer.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1500">
+        <state relative-caret-position="600">
           <caret line="75" column="62" selection-start-line="75" selection-start-column="62" selection-end-line="75" selection-end-column="62" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/elements/templates/home.tpl">
+    <entry file="file://$PROJECT_DIR$/core/elements/chunks/productRelated.tpl">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/elements/chunks/titlebar.tpl">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.core.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+        <state relative-caret-position="63">
+          <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/connectors/config.core.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manager/config.core.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="82" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.htaccess">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/style.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="12" column="128817" selection-start-line="12" selection-start-column="128817" selection-end-line="12" selection-end-column="128817" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/red.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret column="2195" selection-start-column="2195" selection-end-column="2195" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/elements/chunks/socialIcons.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="96" selection-start-line="1" selection-start-column="96" selection-end-line="1" selection-end-column="96" />
+          <folding>
+            <marker date="1557081176000" expanded="true" signature="165:455" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/config/config.inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-930">
+          <caret line="11" column="54" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/elements/chunks/meta.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/elements/templates/_base.tpl">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/elements/chunks/header.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/elements/templates/payment.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="695">
+          <caret line="84" column="6" selection-start-line="84" selection-start-column="6" selection-end-line="84" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/elements/templates/delivery.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="674">
+          <caret line="87" column="13" selection-start-line="87" selection-start-column="13" selection-end-line="87" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/core/elements/templates/contact.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="980">
-          <caret line="49" column="17" selection-start-line="49" selection-start-column="17" selection-end-line="49" selection-end-column="17" />
+        <state relative-caret-position="-1875">
+          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="454" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/elements/templates/home.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/core/elements/chunks/productGallery.tpl">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/elements/chunks/productRelated.tpl">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/elements/chunks/socialIcons.tpl">
+    <entry file="file://$PROJECT_DIR$/core/elements/templates/product.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+        <state relative-caret-position="-79">
+          <caret line="38" column="36" selection-start-line="38" selection-start-column="36" selection-end-line="38" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/elements/chunks/titlebar.tpl">
+    <entry file="file://$PROJECT_DIR$/core/elements/templates/shop.tpl">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/elements/templates/product.tpl">
+    <entry file="file://$PROJECT_DIR$/core/elements/chunks/productGrid.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="69" column="29" selection-start-line="69" selection-start-column="29" selection-end-line="69" selection-end-column="29" />
+        <state relative-caret-position="-195" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/elements/chunks/filters/mFilterProduct.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="30" selection-start-column="30" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/elements/chunks/filters/filter2Outer.tpl">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/elements/chunks/filters/typeFilterCheckbox.tpl">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/elements/chunks/filters/priceFilterSlider.tpl">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/elements/chunks/filters/priceFilterNumber.tpl">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/elements/chunks/mSearchForm.tpl">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/elements/chunks/mSearchAutoCompl.tpl">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/elements/templates/m2search.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="26" column="54" selection-start-line="26" selection-start-column="54" selection-end-line="26" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/elements/templates/shopfiltr.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="477">
+          <caret line="36" column="73" selection-start-line="36" selection-start-column="73" selection-end-line="36" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="10" lean-forward="true" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
         </state>
       </provider>
     </entry>

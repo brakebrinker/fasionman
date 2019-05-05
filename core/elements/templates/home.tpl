@@ -86,9 +86,9 @@
 <!-- Parallax Banner
 ================================================== -->
 <div class="parallax-banner fullwidth-element" data-background="#000" data-opacity="0.45" data-height="200">
-  <img src="assets/images/parallax_01.jpg" alt="" />
+  <img src="{$_modx->resource.main_banner_image}" alt="" />
   <div class="parallax-overlay"></div>
-  <div class="parallax-title">Праздничные скидки <span>От 3% на самые продаваемые товары</span></div>
+  <div class="parallax-title">{$_modx->resource.main_banner_title} <span>{$_modx->resource.main_banner_text}</span></div>
 </div>
 
 

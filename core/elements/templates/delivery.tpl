@@ -82,7 +82,10 @@
   </div>
   <div class="five columns">
     <h3 class="headline">Карта самовывоза</h3><span class="line margin-bottom-35"></span>
-        <div id="googlemaps" class="google-map google-map-full"><script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=BOpEznPmo2J7nkZi3RDEFGsmhqKejJsj&amp;width=100%&amp;height=100%&amp;lang=ru_RU&amp;sourceType=constructor&amp;scroll=true"></script></div>
+        <div id="googlemaps" class="google-map google-map-full">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2349.89229256864!2d27.576958015998596!3d53.915889839597845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbcfcbc31fa473%3A0x9788ceafe91de01a!2zIk1lbidzIEZhc2hpb24iINCc0LDQs9Cw0LfQuNC9INC80YPQttGB0LrQvtC5INC-0LTQtdC20LTRiyDQuCDQvtCx0YPQstC4!5e0!3m2!1sru!2sby!4v1557080814217!5m2!1sru!2sby" width="100%" height="245" frameborder="0" style="border:0" allowfullscreen></iframe>
+          {*<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=BOpEznPmo2J7nkZi3RDEFGsmhqKejJsj&amp;width=100%&amp;height=100%&amp;lang=ru_RU&amp;sourceType=constructor&amp;scroll=true"></script>*}
+        </div>
 
     <div class="clearfix"></div>
   </div>

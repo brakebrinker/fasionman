@@ -9,12 +9,12 @@
 {if $_modx->resource.seokeywords?}
 <meta name="keywords" content="{$_modx->resource.seokeywords}" />
 {else}
-<meta name="keywords" content="купить {$_modx->resource.pagetitle}, витебск, беларусь" />
+<meta name="keywords" content="купить {$_modx->resource.pagetitle}, минск, беларусь" />
 {/if}
 {if $_modx->resource.seodescription?}
 <meta name="description" content="{$_modx->resource.seodescription}" />
 {else}
-<meta name="description" content="Магазин инструментов для строительства и ремонта Montirovka.by - это возможность дешево купить {$_modx->resource.pagetitle} в Витебске и во всей Беларуси" />
+<meta name="description" content="Магазин инструментов для строительства и ремонта Montirovka.by - это возможность дешево купить {$_modx->resource.pagetitle} в Минске и во всей Беларуси" />
 {/if}
 
 <!-- Mobile Specific Metas
@@ -26,7 +26,7 @@
 <!-- CSS
 ================================================== -->
 <link rel="stylesheet" href="assets/css/style.min.css">
-<link rel="stylesheet" href="assets/css/orange.css" id="colors">
+<link rel="stylesheet" href="assets/css/red.css" id="colors">
 
 <link rel="icon" type="image/png" sizes="32x32" href="assets/images/znak.png">
 
