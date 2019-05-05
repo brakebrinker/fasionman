@@ -574,12 +574,10 @@
   'msimportexport.import.remove_limit' => '1000',
   'msimportexport.export_path' => '',
   'msimportexport.cron_sleep_time' => '15',
-  'store_phone' => ' +375 (33) 346-65-39 МТС',
+  'store_phone' => ' +375 (29) 168-11-82 VEL',
   'store_email' => 'sales@montirovka.by',
   'store_site' => 'http://www.montirovka.by',
   'store_info' => 'ИП Певнев Максим Константинович. <p> Св-во № 391105030 выд. Лиозненским райисполкомом 28.07.2016г.</p> <p> Интернет-магазин зарегистрирован в Торговом реестре РБ 15.12.2016 г. регистрационный номер 361801.</p><p>Юр. адрес: аг.Адаменки, ул.Садовая 4</p>',
-  'store_schedule' => 'График работы магазина: <br>
-        с 10.00 до 20.00 без выходных.<br>
-        Оплата: наличные и безналичные.',
+  'store_schedule' => 'График работы магазина: <br>        с 10.00 до 20.00 без выходных.<br>        Оплата: наличные и безналичные.',
   'store_copyright' => '© Copyright 2017 montirovka.by. Все права защищены.',
 );

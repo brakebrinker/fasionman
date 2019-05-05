@@ -38,9 +38,9 @@
     ),
     'OnDocFormPrerender' => 
     array (
-      10 => '10',
       2 => '2',
       9 => '9',
+      10 => '10',
     ),
     'OnDocFormSave' => 
     array (
@@ -74,14 +74,14 @@
     ),
     'OnLoadWebDocument' => 
     array (
-      7 => '7',
       17 => '17',
+      7 => '7',
     ),
     'OnManagerPageBeforeRender' => 
     array (
-      9 => '9',
       2 => '2',
       21 => '21',
+      9 => '9',
     ),
     'OnManagerPageInit' => 
     array (
@@ -129,9 +129,9 @@
     ),
     'OnSiteRefresh' => 
     array (
+      17 => '17',
       6 => '6',
       3 => '3',
-      17 => '17',
     ),
     'OnSnipFormPrerender' => 
     array (
@@ -143,13 +143,13 @@
     ),
     'OnTVInputPropertiesList' => 
     array (
-      10 => '10',
       2 => '2',
+      10 => '10',
     ),
     'OnTVInputRenderList' => 
     array (
-      2 => '2',
       10 => '10',
+      2 => '2',
     ),
     'OnTVOutputRenderList' => 
     array (
@@ -174,8 +174,8 @@
     ),
     'OnWebPagePrerender' => 
     array (
-      17 => '17',
       6 => '6',
+      17 => '17',
     ),
   ),
   'pluginCache' => 

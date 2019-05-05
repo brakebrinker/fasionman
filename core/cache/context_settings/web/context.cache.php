@@ -774,9 +774,9 @@
     ),
     'OnDocFormPrerender' => 
     array (
+      10 => '10',
       9 => '9',
       2 => '2',
-      10 => '10',
     ),
     'OnDocFormSave' => 
     array (
@@ -850,14 +850,14 @@
     ),
     'OnRichTextEditorRegister' => 
     array (
-      9 => '9',
       5 => '5',
+      9 => '9',
     ),
     'OnSiteRefresh' => 
     array (
-      17 => '17',
       6 => '6',
       3 => '3',
+      17 => '17',
     ),
     'OnSnipFormPrerender' => 
     array (
@@ -874,8 +874,8 @@
     ),
     'OnTVInputRenderList' => 
     array (
-      10 => '10',
       2 => '2',
+      10 => '10',
     ),
     'OnTVOutputRenderList' => 
     array (

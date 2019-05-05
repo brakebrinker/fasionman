@@ -564,4 +564,5 @@
   'setting_manager_use_fullname' => 'Отображать полное имя в «шапке» панели администратора MODX',
   'setting_manager_use_fullname_desc' => 'Если параметр включен, в шапке панели администратора MODX будет отображаться содержимое поля «fullname» вместо «loginname»',
   'setting_store_phone' => 'Номер телефона магазина',
+  'setting_store_schedule' => 'График работы',
 );
