@@ -6,7 +6,7 @@
   <div class="container">
 
     <div class="four columns">
-      <img src="assets/images/logo-footer_1.png" alt="" class="margin-top-10" />
+      <img src="assets/images/mens_fashion_2.jpg" alt="" class="margin-top-10" />
       <p class="margin-top-15">{$_modx->config.store_info}</p>
     </div>
 
@@ -76,7 +76,7 @@
     <div class="eight columns">{$_modx->config.store_copyright}</div>
     <div class="eight columns">
       <ul class="payment-icons">
-        <li><img src="assets/images/logous-bw.png" alt="" style="height:28px"/></li>
+        {*<li><img src="assets/images/logous-bw.png" alt="" style="height:28px"/></li>*}
 <!--         <li><img src="assets/images/verified-by-visa.png" alt="" /></li>
 <li><img src="assets/images/mastercard.png" alt="" /></li>
 <li><img src="assets/images/mastercard-securecode.png" alt="" /></li>

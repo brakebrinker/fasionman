@@ -33,7 +33,7 @@
   <!-- Logo -->
   <div class="four columns">
     <div id="logo">
-      <h1><a href="{$_modx->config['site_url']}"><img src="assets/images/logo_2.png" alt="Montirovka.by" /></a></h1>
+      <h1><a href="{$_modx->config['site_url']}"><img src="assets/images/mens_fashion.png" alt="mensfashion.by" /></a></h1>
     </div>
   </div>
 

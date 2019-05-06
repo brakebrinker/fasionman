@@ -3,7 +3,7 @@
     <img src="{$file['282x376']}" alt="{$longtitle ? $longtitle : $pagetitle}" title="{$longtitle ? $longtitle : $pagetitle}"/>
   {/foreach}
 {else}
-  <img src="{'assets_url' | option}images/no-photo-small.png"
-    srcset="{'assets_url' | option}images/no-photo-small.png"
+  <img src="{'assets_url' | option}images/no-photo-available.jpg"
+    srcset="{'assets_url' | option}images/no-photo-available.jpg"
     alt="{$longtitle ? $longtitle : $pagetitle}" title="{$longtitle ? $longtitle : $pagetitle}"/>
 {/if}
